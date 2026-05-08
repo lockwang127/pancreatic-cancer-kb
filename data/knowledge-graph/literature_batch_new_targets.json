@@ -1,0 +1,252 @@
+[
+  {
+    "head": "胰腺癌KRAS G12C抑制剂",
+    "relation": "代表药物",
+    "tail": "Sotorasib、Adagrasib",
+    "source": "CodeBreak-100 / KRYSTAL-1研究",
+    "evidence": "KRAS G12C突变在胰腺癌中占1-2%，已有I期临床数据",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌KRAS G12D抑制剂",
+    "relation": "代表药物",
+    "tail": "MRTX1133、AB501等正在临床试验中",
+    "source": "新药研发 / 临床试验",
+    "evidence": "KRAS G12D是胰腺癌最常见突变（约40%），是研发热点",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌SHP2抑制剂",
+    "relation": "作用机制",
+    "tail": "阻断SHP2可抑制KRAS下游信号通路",
+    "source": "分子靶向研究",
+    "evidence": "SHP2抑制剂正在与KRAS抑制剂联合探索",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌SOS1抑制剂",
+    "relation": "作用机制",
+    "tail": "阻断SOS1可抑制KRAS激活",
+    "source": "分子靶向研究",
+    "evidence": "SOS1抑制剂正在早期临床试验中",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌GEF抑制剂",
+    "relation": "作用机制",
+    "tail": "GEF（如SOS1）是KRAS上游激活因子",
+    "source": "分子靶向研究",
+    "evidence": "GEF抑制剂正在开发中",
+    "domain": "treatment",
+    "confidence": 0.7,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌PARP抑制剂",
+    "relation": "代表药物",
+    "tail": "奥拉帕利（BRCA1/2突变患者）",
+    "source": "POLO研究 / NCCN指南2025",
+    "evidence": "PARP抑制剂在HRR缺陷胰腺癌中有效",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "胰腺癌ATR抑制剂",
+    "relation": "代表药物",
+    "tail": "Berzosertib等，与PARP抑制剂有协同作用",
+    "source": "分子靶向研究 / 临床试验",
+    "evidence": "ATR抑制剂正在与PARP抑制剂联合探索",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CHK1/CHK2抑制剂",
+    "relation": "代表药物",
+    "tail": "CHK1/CHK2抑制剂可增强DDR抑制剂效果",
+    "source": "分子靶向研究",
+    "evidence": "CHK抑制剂正在开发中",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌WEE1抑制剂",
+    "relation": "代表药物",
+    "tail": "Adavosertib等，可增强化疗和放疗效果",
+    "source": "分子靶向研究 / 临床试验",
+    "evidence": "WEE1抑制剂正在临床试验中",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌间皮素(Mesothelin)靶向治疗",
+    "relation": "代表药物",
+    "tail": "间皮素ADC、CAR-T、BiTE正在开发中",
+    "source": "肿瘤靶向治疗研究",
+    "evidence": "间皮素在约80-90%胰腺癌中过表达",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌Claudin 18.2靶向治疗",
+    "relation": "代表药物",
+    "tail": "Claudin 18.2 ADC（例如TS001）、CAR-T正在开发中",
+    "source": "ADC研发 / 临床试验",
+    "evidence": "Claudin 18.2在约50-60%胰腺癌中表达",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌HER2靶向治疗",
+    "relation": "代表药物",
+    "tail": "HER2 ADC（如T-DXd）正在探索中",
+    "source": "ADC研发 / 临床试验",
+    "evidence": "HER2在约5-10%胰腺癌中扩增/过表达",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌EGFR抑制剂",
+    "relation": "代表药物",
+    "tail": "吉非替尼、西妥昔单抗等，单药活性有限",
+    "source": "分子靶向研究 / 临床研究",
+    "evidence": "EGFR在约50-60%胰腺癌中过表达",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌VEGF/VEGFR抑制剂",
+    "relation": "代表药物",
+    "tail": "贝伐珠单抗、舒尼替尼等，单药活性有限",
+    "source": "分子靶向研究 / 临床研究",
+    "evidence": "抗血管生成药在胰腺癌中单药效果差",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌肿瘤疫苗",
+    "relation": "类型",
+    "tail": "mRNA疫苗、DC疫苗、肽疫苗等正在临床试验中",
+    "source": "肿瘤疫苗研究 / Frontiers in Immunology 2025",
+    "evidence": "新一代疫苗旨在克服免疫抑制微环境",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CAR-T治疗",
+    "relation": "靶点",
+    "tail": "间皮素、Claudin 18.2、HER2等",
+    "source": "细胞治疗研究 / 临床试验",
+    "evidence": "CAR-T在实体瘤中面临TME挑战",
+    "domain": "treatment",
+    "confidence": 0.7,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌BiTE(双特异性T细胞衔接器)",
+    "relation": "靶点",
+    "tail": "靶向间皮素或Claudin 18.2的BiTE正在探索",
+    "source": "肿瘤免疫治疗研究",
+    "evidence": "BiTE可激活T细胞杀伤肿瘤",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌NK细胞接合器",
+    "relation": "作用机制",
+    "tail": "双特异性抗体同时结合NK细胞和肿瘤抗原",
+    "source": "肿瘤免疫治疗研究",
+    "evidence": "NK细胞接合器是新兴免疫疗法",
+    "domain": "treatment",
+    "confidence": 0.68,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌溶瘤病毒",
+    "relation": "代表药物",
+    "tail": "溶瘤疱疹病毒、溶瘤腺病毒等正在探索中",
+    "source": "溶瘤病毒研究 / 临床试验",
+    "evidence": "溶瘤病毒可选择性感染肿瘤细胞并激活免疫",
+    "domain": "treatment",
+    "confidence": 0.65,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌TGF-β抑制剂",
+    "relation": "代表药物",
+    "tail": "Galunisertib等，与PD-1抑制剂联合探索中",
+    "source": "肿瘤微环境研究 / 临床试验",
+    "evidence": "TGF-β是胰腺癌免疫抑制核心通路",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌MET扩增",
+    "relation": "靶向治疗",
+    "tail": "MET抑制剂(如Capmatinib)正在探索中",
+    "source": "分子靶向研究",
+    "evidence": "MET扩增在胰腺癌中约占2-5%",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌RET融合",
+    "relation": "靶向治疗",
+    "tail": "RET抑制剂(如Selpercatinib)正在探索",
+    "source": "分子靶向研究/临床试验",
+    "evidence": "RET融合在胰腺癌中极罕见",
+    "domain": "treatment",
+    "confidence": 0.65,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌NTRK融合",
+    "relation": "靶向治疗",
+    "tail": "恩曲替尼/拉罗替尼可用于NTRK融合阳性",
+    "source": "NCCN指南2025",
+    "evidence": "NTRK融合在胰腺癌中极罕见",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": "31712543"
+  },
+  {
+    "head": "胰腺癌免疫检查点联合",
+    "relation": "研究方向",
+    "tail": "PD-1+CTLA-4、PD-1+CD40等联合正在探索",
+    "source": "肿瘤免疫治疗研究",
+    "evidence": "联合免疫治疗旨在克服免疫抑制微环境",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌基质减薄策略",
+    "relation": "方法",
+    "tail": "PEGPH20、TGF-β抑制剂、维生素D受体激动剂",
+    "source": "肿瘤微环境研究",
+    "evidence": "基质减薄旨在提高药物递送",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": null
+  }
+]

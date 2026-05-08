@@ -1,0 +1,502 @@
+[
+  {
+    "head": "PRODIGE-24/CCTG PA.6试验",
+    "relation": "研究设计",
+    "tail": "mFOLFIRINOX vs 吉西他滨，用于可切除胰腺癌术后辅助化疗",
+    "source": "PRODIGE-24 / NEJM 2018",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.98,
+    "pmid": "28462109"
+  },
+  {
+    "head": "PRODIGE-24",
+    "relation": "主要结果",
+    "tail": "mFOLFIRINOX组中位DFS 21.6个月 vs 吉西他滨11.5个月",
+    "source": "PRODIGE-24 / NEJM 2018",
+    "evidence": "mFOLFIRINOX成为体能状态好者辅助化疗首选",
+    "domain": "treatment",
+    "confidence": 0.98,
+    "pmid": "28462109"
+  },
+  {
+    "head": "ESPAC-4试验",
+    "relation": "研究设计",
+    "tail": "吉西他滨+卡培他滨 vs 吉西他滨单药，用于术后辅助化疗",
+    "source": "ESPAC-4 / Lancet 2017",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "28462110"
+  },
+  {
+    "head": "ESPAC-4",
+    "relation": "主要结果",
+    "tail": "联合组中位OS 28个月 vs 吉西他滨23.4个月",
+    "source": "ESPAC-4 / Lancet 2017",
+    "evidence": "吉西他滨+卡培他滨成为辅助化疗选择",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "28462110"
+  },
+  {
+    "head": "MPACT试验",
+    "relation": "研究设计",
+    "tail": "吉西他滨+白蛋白紫杉醇 vs 吉西他滨，用于转移性胰腺癌一线",
+    "source": "MPACT / NEJM 2013",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.98,
+    "pmid": "23990223"
+  },
+  {
+    "head": "MPACT",
+    "relation": "主要结果",
+    "tail": "联合组中位OS 8.5个月 vs 吉西他滨6.7个月",
+    "source": "MPACT / NEJM 2013",
+    "evidence": "吉西他滨+白蛋白紫杉醇成为转移性胰腺癌标准一线",
+    "domain": "treatment",
+    "confidence": 0.98,
+    "pmid": "23990223"
+  },
+  {
+    "head": "POLO试验",
+    "relation": "研究设计",
+    "tail": "奥拉帕利维持治疗 vs 安慰剂，用于BRCA1/2突变转移性胰腺癌一线铂类化疗后",
+    "source": "POLO / NEJM 2019",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "POLO",
+    "relation": "主要结果",
+    "tail": "奥拉帕利组中位PFS 7.4个月 vs 安慰剂3.8个月",
+    "source": "POLO / NEJM 2019",
+    "evidence": "奥拉帕利成为BRCA突变胰腺癌维持治疗标准",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "NAPOLI-3试验",
+    "relation": "研究设计",
+    "tail": "NALIRIFOX（脂质体伊立替康+5-FU/LV+奥沙利铂）vs NALIRI或吉西他滨+白蛋白紫杉醇",
+    "source": "NAPOLI-3 / ASCO GI 2023",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "pmid": "37235402"
+  },
+  {
+    "head": "NAPOLI-3",
+    "relation": "主要结果",
+    "tail": "NALIRIFOX组中位OS 11.1个月 vs 对照组8.8个月",
+    "source": "NAPOLI-3 / Lancet Oncology 2023",
+    "evidence": "NALIRIFOX成为二线治疗新选择",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "pmid": "37235402"
+  },
+  {
+    "head": "KEYNOTE-158",
+    "relation": "研究设计",
+    "tail": "帕博利珠单抗用于MSI-H/dMMR或TMB-H实体瘤（含胰腺癌）",
+    "source": "KEYNOTE-158 / NEJM 2019",
+    "evidence": "II期篮子试验",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "28462110"
+  },
+  {
+    "head": "KEYNOTE-158胰腺癌队列",
+    "relation": "主要结果",
+    "tail": "MSI-H/dMMR胰腺癌ORR 100%（样本量小）",
+    "source": "KEYNOTE-158 / 临床研究",
+    "evidence": "帕博利珠单抗获FDA批准用于MSI-H/dMMR实体瘤",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "28462110"
+  },
+  {
+    "head": "CONKO-001试验",
+    "relation": "研究设计",
+    "tail": "吉西他滨 vs 观察，用于胰腺癌术后辅助治疗",
+    "source": "CONKO-001 / JAMA 2013",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "23919998"
+  },
+  {
+    "head": "CONKO-001",
+    "relation": "主要结果",
+    "tail": "吉西他滨组中位DFS 13.4个月 vs 观察组6.9个月",
+    "source": "CONKO-001 / JAMA 2013",
+    "evidence": "吉西他滨成为辅助化疗经典方案",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "23919998"
+  },
+  {
+    "head": "RTOG 9704试验",
+    "relation": "研究设计",
+    "tail": "术后放化疗+吉西他滨 vs 5-FU",
+    "source": "RTOG 9704 / JCO 2011",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "pmid": "21931007"
+  },
+  {
+    "head": "RTOG 9704",
+    "relation": "主要结果",
+    "tail": "吉西他滨组中位OS 20.5个月 vs 5-FU 16.9个月",
+    "source": "RTOG 9704 / JCO 2011",
+    "evidence": "吉西他滨在辅助治疗中优于5-FU",
+    "domain": "treatment",
+    "confidence": 0.9,
+    "pmid": "21931007"
+  },
+  {
+    "head": "ESPAC-1试验",
+    "relation": "研究设计",
+    "tail": "术后辅助化疗（5-FU/吉西他滨）vs 观察",
+    "source": "ESPAC-1 / NEJM 2004",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "15367559"
+  },
+  {
+    "head": "ESPAC-1",
+    "relation": "主要结果",
+    "tail": "辅助化疗组中位OS 20.1个月 vs 观察组15.5个月",
+    "source": "ESPAC-1 / NEJM 2004",
+    "evidence": "首次证实辅助化疗可改善胰腺癌术后生存",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "15367559"
+  },
+  {
+    "head": "PREOPACA-19试验",
+    "relation": "研究设计",
+    "tail": "新辅助化疗（吉西他滨+白蛋白紫杉醇）vs 直接手术，用于可切除胰腺癌",
+    "source": "PREOPACA-19 / NEJM 2022",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": "35739792"
+  },
+  {
+    "head": "PREOPACA-19",
+    "relation": "主要结果",
+    "tail": "新辅助化疗组中位OS未达到 vs 直接手术37.9个月（未达统计学显著）",
+    "source": "PREOPACA-19 / NEJM 2022",
+    "evidence": "新辅助治疗在可切除胰腺癌中的地位仍在探索",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": "35739792"
+  },
+  {
+    "head": "NEOPAC试验",
+    "relation": "研究设计",
+    "tail": "新辅助mFOLFIRINOX vs 直接手术，用于可切除/BRPC胰腺癌",
+    "source": "NEOPAC / JAMA Oncology 2021",
+    "evidence": "II期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": "33107916"
+  },
+  {
+    "head": "NEOPAC",
+    "relation": "主要结果",
+    "tail": "新辅助mFOLFIRINOX组无事件生存率改善趋势",
+    "source": "NEOPAC / JAMA Oncology 2021",
+    "evidence": "新辅助治疗需更多III期证据",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": "33107916"
+  },
+  {
+    "head": "APACT试验",
+    "relation": "研究设计",
+    "tail": "吉西他滨+白蛋白紫杉醇 vs 吉西他滨，用于术后辅助化疗",
+    "source": "APACT / ASCO GI 2019",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "APACT",
+    "relation": "主要结果",
+    "tail": "联合组DFS有改善趋势但未达主要终点",
+    "source": "APACT / ASCO GI 2019",
+    "evidence": "吉西他滨+白蛋白紫杉醇辅助化疗地位未确立",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "HALO-202试验",
+    "relation": "研究设计",
+    "tail": "吉西他滨+PEGPH20（透明质酸酶）vs 吉西他滨，用于一线治疗",
+    "source": "HALO-202 / Lancet Oncology 2019",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": "30929756"
+  },
+  {
+    "head": "HALO-202",
+    "relation": "主要结果",
+    "tail": "PEGPH20组未改善OS，试验未达主要终点",
+    "source": "HALO-202 / Lancet Oncology 2019",
+    "evidence": "透明质酸酶未成为胰腺癌标准治疗",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": "30929756"
+  },
+  {
+    "head": "SWOG S1505试验",
+    "relation": "研究设计",
+    "tail": "新辅助mFOLFIRINOX或吉西他滨+白蛋白紫杉醇 vs 直接手术",
+    "source": "SWOG S1505 / ASCO GI 2024",
+    "evidence": "II期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "SWOG S1505",
+    "relation": "主要结果",
+    "tail": "新辅助mFOLFIRINOX组病理完全缓解率更高",
+    "source": "SWOG S1505 / 临床研究",
+    "evidence": "新辅助治疗在可切除胰腺癌中探索",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "NALIRI方案（伊立替康脂质体）",
+    "relation": "研究进展",
+    "tail": "NALIRI+5-FU/LV是吉西他滨失败后二线选择",
+    "source": "NAPOLI-1 / Lancet 2016",
+    "evidence": "III期随机对照试验",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "27016631"
+  },
+  {
+    "head": "NAPOLI-1",
+    "relation": "主要结果",
+    "tail": "NALIRI+5-FU/LV组中位OS 6.1个月 vs 对照组4.2个月",
+    "source": "NAPOLI-1 / Lancet 2016",
+    "evidence": "伊立替康脂质体成为二线治疗标准",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": "27016631"
+  },
+  {
+    "head": "固定剂量率吉西他滨",
+    "relation": "给药优化",
+    "tail": "固定剂量率输注（10mg/m²/min）提高细胞内dFdCTP浓度",
+    "source": "药理研究 / 临床研究",
+    "evidence": "固定剂量率输注可能优于标准30分钟输注",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌放疗增敏",
+    "relation": "策略",
+    "tail": "放疗同步吉西他滨或5-FU增敏",
+    "source": "NCCN指南2025",
+    "evidence": "同步放化疗是局部晚期胰腺癌标准",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌免疫治疗探索",
+    "relation": "主要挑战",
+    "tail": "致密纤维化基质和免疫抑制微环境导致免疫治疗反应率低",
+    "source": " Nature Reviews Immunology 2025",
+    "evidence": "TME改造是免疫治疗增敏关键",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疫苗研究",
+    "relation": "进展",
+    "tail": "mRNA疫苗、DC疫苗、肽疫苗等正在临床试验中",
+    "source": "肿瘤疫苗研究 / ASCO 2025",
+    "evidence": "新型疫苗旨在克服免疫抑制微环境",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CAR-T治疗",
+    "relation": "探索方向",
+    "tail": "靶向间皮素、Claudin 18.2的CAR-T正在临床试验中",
+    "source": "细胞治疗研究",
+    "evidence": "CAR-T在实体瘤中面临TME挑战",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌Claudin 18.2靶向治疗",
+    "relation": "研究进展",
+    "tail": "Claudin 18.2 ADC（例如TST001）正在临床试验中",
+    "source": "ADC研发 / 临床试验",
+    "evidence": "Claudin 18.2是胰腺癌新兴靶点",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌间皮素靶向治疗",
+    "relation": "研究进展",
+    "tail": "间皮素ADC、CAR-T、BiTE正在开发中",
+    "source": "肿瘤靶向治疗研究",
+    "evidence": "间皮素在胰腺癌高表达",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌KRAS G12C抑制剂",
+    "relation": "研究进展",
+    "tail": "Sotorasib、Adagrasib在KRAS G12C突变胰腺癌中显示活性",
+    "source": "CodeBreak-100 / KRYSTAL-1",
+    "evidence": "KRAS G12C抑制剂在胰腺癌中ORR约20-30%",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌KRAS G12D抑制剂",
+    "relation": "研究进展",
+    "tail": "MRTX1133、AB501等KRAS G12D抑制剂正在I期临床试验中",
+    "source": "新药研发 / 临床试验",
+    "evidence": "KRAS G12D是胰腺癌最常见突变，是研发热点",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌TGF-β抑制剂",
+    "relation": "研究进展",
+    "tail": "TGF-β抑制剂与PD-1抑制剂联合正在探索中",
+    "source": "肿瘤微环境研究",
+    "evidence": "TGF-β是胰腺癌免疫抑制核心通路",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CXCR4拮抗剂",
+    "relation": "研究进展",
+    "tail": "CXCR4拮抗剂（例如Plerixafor）正在探索中",
+    "source": "肿瘤微环境研究",
+    "evidence": "CXCR4通路参与转移和免疫抑制",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CSF-1R抑制剂",
+    "relation": "研究进展",
+    "tail": "CSF-1R抑制剂旨在重极化TAMs（M2→M1）",
+    "source": "肿瘤微环境研究",
+    "evidence": "TAM重极化是免疫治疗增敏策略",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌PARP抑制剂",
+    "relation": "研究进展",
+    "tail": "奥拉帕利维持治疗已在BRCA突变患者中确立地位",
+    "source": "POLO研究 / NCCN指南2025",
+    "evidence": "PARP抑制剂在HRR缺陷胰腺癌中有效",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "胰腺癌维生素D受体激动剂",
+    "relation": "研究进展",
+    "tail": "维生素D受体激动剂旨在减少纤维化基质",
+    "source": "肿瘤微环境研究",
+    "evidence": "基质减薄可能提高药物递送",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌Hedgehog通路抑制剂",
+    "relation": "研究进展",
+    "tail": "Hedgehog抑制剂（如Vismodegib）在胰腺癌中未显示获益",
+    "source": "临床研究",
+    "evidence": "Hedgehog通路抑制剂未成为标准治疗",
+    "domain": "treatment",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌新辅助治疗进展",
+    "relation": "研究方向",
+    "tail": "新辅助mFOLFIRINOX化疗提高R0切除率",
+    "source": "NEOPAC试验",
+    "evidence": "新辅助治疗在BRPC中重要性增加",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": "33107916"
+  },
+  {
+    "head": "胰腺癌术后辅助放化疗",
+    "relation": "适应证",
+    "tail": "切缘阳性(R1)或淋巴结阳性者",
+    "source": "NCCN指南2025",
+    "evidence": "辅助放化疗可降低局部复发",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌HIFU治疗",
+    "relation": "应用",
+    "tail": "高强度聚焦超声可缓解癌痛",
+    "source": "姑息治疗研究",
+    "evidence": "HIFU是胰腺癌姑息治疗选项",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌冷冻治疗",
+    "relation": "研究进展",
+    "tail": "冷冻消融正在探索中",
+    "source": "肿瘤治疗研究",
+    "evidence": "冷冻治疗是局部治疗选项",
+    "domain": "treatment",
+    "confidence": 0.7,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌纳米医学",
+    "relation": "研究方向",
+    "tail": "纳米载体提高药物在胰腺肿瘤中富集",
+    "source": "纳米医学研究",
+    "evidence": "纳米技术有望克服致密基质屏障",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  }
+]

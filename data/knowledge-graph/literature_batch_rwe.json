@@ -1,0 +1,382 @@
+[
+  {
+    "head": "全球胰腺癌流行病学",
+    "relation": "发病率",
+    "tail": "2020年全球新发病例约49.6万，死亡约46.6万",
+    "source": "GLOBOCAN 2020 / IARC",
+    "evidence": "胰腺癌是预后最差的恶性肿瘤之一",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "中国胰腺癌流行病学",
+    "relation": "发病率",
+    "tail": "2020年中国新发病例约12.4万，死亡约12.2万",
+    "source": "GLOBOCAN 2020 / 国家癌症中心",
+    "evidence": "胰腺癌是中国男性第8位、女性第11位常见癌症",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌5年生存率",
+    "relation": "全球数据",
+    "tail": "所有分期合计约11%，局部期约39%，远处转移约3%",
+    "source": "SEER数据库分析",
+    "evidence": "胰腺癌是预后最差的实体瘤之一",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌年龄分布",
+    "relation": "特点",
+    "tail": "发病高峰65-75岁，65岁以上占约70%",
+    "source": "GLOBOCAN 2020 / SEER数据库",
+    "evidence": "年龄是胰腺癌最重要危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌种族差异",
+    "relation": "数据",
+    "tail": "非裔美国人发病率最高，亚裔相对较低",
+    "source": "SEER数据库分析",
+    "evidence": "种族差异可能与遗传和环境因素相关",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "中国胰腺癌趋势",
+    "relation": "变化",
+    "tail": "发病率和死亡率均呈上升趋势",
+    "source": "国家癌症中心统计数据",
+    "evidence": "生活方式西化、人口老龄化是可能原因",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌家族史",
+    "relation": "风险",
+    "tail": "一级亲属患胰腺癌，本人风险增加2-3倍",
+    "source": "流行病学研究",
+    "evidence": "遗传因素在胰腺癌中起重要作用",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "遗传性胰腺癌综合征",
+    "relation": "类型",
+    "tail": "BRCA1/2、PALB2、CDKN2A、MLH1、MSH2等突变携带者",
+    "source": "临床遗传学 / NCCN指南2025",
+    "evidence": "遗传性胰腺癌综合征患者需加强筛查",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌糖尿病关系",
+    "relation": "双向关系",
+    "tail": "长期糖尿病增加胰腺癌风险2-3倍；胰腺癌可引起新发糖尿病",
+    "source": "流行病学研究 / 临床研究",
+    "evidence": "新发糖尿病（<3年）需警惕胰腺癌可能",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌慢性胰腺炎",
+    "relation": "关系",
+    "tail": "慢性胰腺炎患者胰腺癌风险增加5-10倍",
+    "source": "流行病学研究",
+    "evidence": "慢性胰腺炎是胰腺癌癌前病变",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌吸烟",
+    "relation": "风险",
+    "tail": "吸烟增加胰腺癌风险2-3倍，戒烟后风险逐渐下降",
+    "source": "IARC / 流行病学研究",
+    "evidence": "吸烟是胰腺癌最重要的可改变危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌饮酒",
+    "relation": "风险",
+    "tail": "重度饮酒（>3杯/天）增加胰腺癌风险",
+    "source": "流行病学研究 / meta分析",
+    "evidence": "酒精是胰腺癌可改变危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌肥胖与代谢综合征",
+    "relation": "关系",
+    "tail": "BMI≥30kg/m²者胰腺癌风险增加20-50%",
+    "source": "流行病学研究 / meta分析",
+    "evidence": "肥胖是胰腺癌可改变危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌饮食因素",
+    "relation": "影响",
+    "tail": "高脂饮食、红肉摄入增加风险；水果蔬菜、叶酸可能降低风险",
+    "source": "流行病学研究",
+    "evidence": "饮食是胰腺癌可改变危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌地域分布",
+    "relation": "特点",
+    "tail": "北美、欧洲、澳洲最高，非洲、南亚较低",
+    "source": "GLOBOCAN 2020",
+    "evidence": "地域差异与遗传和环境因素相关",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后复发模式",
+    "relation": "数据",
+    "tail": "约70-80%患者术后复发，多发生于术后2年内",
+    "source": "SEER数据库分析 / 临床研究",
+    "evidence": "复发监测重点在治疗后前2年",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌复发部位",
+    "relation": "分布",
+    "tail": "约60-70%为肝转移，20-30%为腹膜种植，10-20%为局部复发",
+    "source": "临床研究",
+    "evidence": "复发部位影响治疗决策",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌切除率",
+    "relation": "数据",
+    "tail": "仅约15-20%患者确诊时为可切除",
+    "source": "NCCN指南2025 / 临床研究",
+    "evidence": "早期诊断困难导致切除率低",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌R0切除率",
+    "relation": "数据",
+    "tail": "约60-80%可切除患者能达到R0切除",
+    "source": "外科临床研究",
+    "evidence": "R0切除是长期生存的关键",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌R0切除后5年生存率",
+    "relation": "数据",
+    "tail": "约25-30%（吉西他滨辅助化疗时代）",
+    "source": "临床研究 / PRODIGE-24",
+    "evidence": "mFOLFIRINOX辅助化疗时代5年生存率可能提高",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌不可切除患者中位OS",
+    "relation": "数据",
+    "tail": "约8-12个月（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇）",
+    "source": "MPACT / PRODIGE-4研究",
+    "evidence": "现代化疗可延长不可切除患者生存",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌真实世界治疗模式",
+    "relation": "数据",
+    "tail": "真实世界中仅约35-40%患者接受一线标准化疗",
+    "source": "真实世界研究",
+    "evidence": "真实世界患者体能状态和合并症影响治疗选择",
+    "domain": "epidemiology",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌经济负担",
+    "relation": "数据",
+    "tail": "中国胰腺癌人均治疗费用约8-15万元/年",
+    "source": "卫生经济学研究",
+    "evidence": "晚期胰腺癌治疗费用显著高于可切除患者",
+    "domain": "epidemiology",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌幸存者生活质量",
+    "relation": "主要问题",
+    "tail": "消化不良、体重下降、腹痛、抑郁焦虑、经济负担",
+    "source": "肿瘤幸存者研究",
+    "evidence": "胰腺癌幸存者生活质量显著低于其他癌症",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌筛查争议",
+    "relation": "现状",
+    "tail": "普通人群不推荐筛查；高危人群（遗传性综合征家系）可考虑筛查",
+    "source": "NCCN指南2025 / USPSTF",
+    "evidence": "普通人群筛查获益不明确",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌高危人群筛查",
+    "relation": "策略",
+    "tail": "每年CA19-9+MRI/MRCP/EUS（遗传性综合征家系成员）",
+    "source": "NCCN指南2025 / CAPS3研究",
+    "evidence": "高危人群筛查有助于早期发现胰腺癌",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌多学科诊疗(MDT)",
+    "relation": "推荐",
+    "tail": "所有胰腺癌患者应经MDT讨论制定个体化方案",
+    "source": "NCCN指南2025 / CSCO指南2024",
+    "evidence": "MDT提高诊疗质量",
+    "domain": "epidemiology",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌支持治疗",
+    "relation": "内容",
+    "tail": "疼痛管理、营养支持、心理支持、胆道引流、胃肠减压",
+    "source": "NCCN指南2025",
+    "evidence": "支持治疗贯穿全程管理",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疼痛管理",
+    "relation": "策略",
+    "tail": "阿片类药物+辅助镇痛+腹腔神经丛阻滞/毁损",
+    "source": "NCCN指南2025 / 癌痛管理指南",
+    "evidence": "胰腺癌疼痛多由腹腔神经丛受累引起",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌营养支持",
+    "relation": "策略",
+    "tail": "口服营养补充/EN/PN，胰酶替代治疗",
+    "source": "ESPEN指南 / CSCO指南2024",
+    "evidence": "胰腺癌患者营养不良风险高，营养支持改善预后",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌心理支持",
+    "relation": "重要性",
+    "tail": "胰腺癌患者抑郁焦虑发生率约30-50%",
+    "source": "肿瘤心理学研究",
+    "evidence": "心理支持改善生活质量和预后",
+    "domain": "epidemiology",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌遗传咨询",
+    "relation": "推荐人群",
+    "tail": "BRCA1/2、PALB2、CDKN2A等突变携带者及其家系成员",
+    "source": "NCCN指南2025 / 临床遗传学",
+    "evidence": "遗传咨询有助于家系成员风险管理",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌临床试验参与率",
+    "relation": "数据",
+    "tail": "仅约2-5%胰腺癌患者参加临床试验",
+    "source": "临床试验研究",
+    "evidence": "临床试验参与率低是胰腺癌研究进展缓慢的原因之一",
+    "domain": "epidemiology",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌生存率种族差异",
+    "relation": "数据",
+    "tail": "非洲裔美国人5年生存率低于白人",
+    "source": "SEER数据库分析",
+    "evidence": "种族差异可能与遗传和环境因素相关",
+    "domain": "epidemiology",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌诊断延迟",
+    "relation": "原因",
+    "tail": "早期症状不明显，确诊时约80%已转移",
+    "source": "临床研究",
+    "evidence": "早期诊断困难是预后差的主要原因",
+    "domain": "epidemiology",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CA19-9假性正常",
+    "relation": "原因",
+    "tail": "Lewis抗原阴性者CA19-9不升高",
+    "source": "临床检验研究",
+    "evidence": "Lewis阴性者需依赖其他标志物",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌围手术期死亡率",
+    "relation": "数据",
+    "tail": "胰十二指肠切除术约2-5%",
+    "source": "外科临床研究",
+    "evidence": "围手术期死亡率已显著下降",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌长期生存者特征",
+    "relation": "研究数据",
+    "tail": "R0切除+辅助化疗+无淋巴结转移者长期生存率高",
+    "source": "SEER数据库分析",
+    "evidence": "R0切除是长期生存的关键因素",
+    "domain": "epidemiology",
+    "confidence": 0.92,
+    "pmid": null
+  }
+]

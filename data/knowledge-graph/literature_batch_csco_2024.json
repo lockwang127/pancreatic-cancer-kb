@@ -1,0 +1,502 @@
+[
+  {
+    "head": "可切除胰腺癌(R-PANC)",
+    "relation": "CSCO 2024推荐首选治疗",
+    "tail": "根治性手术切除 + 辅助化疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "对于可切除胰腺癌，首选根治性手术切除（胰十二指肠切除术/远端胰腺切除术/全胰切除），术后行辅助化疗",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "可切除胰腺癌术后辅助化疗",
+    "relation": "CSCO 2024推荐首选方案",
+    "tail": "mFOLFIRINOX（适合体能状态好者）或吉西他滨+卡培他滨/替吉奥",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "辅助化疗首选mFOLFIRINOX方案（PRODIGE-24试验：中位DFS 21.6个月），不适合FOLFIRINOX者可选吉西他滨+卡培他滨（ESPAC-4试验）",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "28462109"
+  },
+  {
+    "head": "临界可切除胰腺癌(BRPC)",
+    "relation": "CSCO 2024推荐治疗策略",
+    "tail": "新辅助化疗→重新评估→手术切除→辅助化疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "对于临界可切除胰腺癌，推荐先行新辅助化疗（2-6个月），治疗后重新影像学评估，降期后行根治性切除",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "局部晚期不可切除胰腺癌(LA-PANC)",
+    "relation": "CSCO 2024推荐治疗策略",
+    "tail": "化疗为主，化疗后重新评估是否可切除",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "局部晚期胰腺癌以全身化疗为首选，约10-30%的患者化疗后可降期为可切除",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "转移性胰腺癌(M1)一线化疗",
+    "relation": "CSCO 2024推荐首选方案",
+    "tail": "mFOLFIRINOX（体能状态好）或吉西他滨+白蛋白紫杉醇",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "mFOLFIRINOX（MPACT试验）：中位OS 11.1个月；吉西他滨+白蛋白紫杉醇：中位OS 8.5个月",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "31539028"
+  },
+  {
+    "head": "BRCA1/2突变转移性胰腺癌",
+    "relation": "CSCO 2024推荐维持治疗",
+    "tail": "铂类化疗后予奥拉帕利(PARP抑制剂)维持治疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "POLO试验：BRCA1/2突变的转移性胰腺癌患者，一线铂类化疗后未进展者，奥拉帕利维持治疗显著延长PFS",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "胰腺癌二线化疗",
+    "relation": "CSCO 2024推荐方案",
+    "tail": "根据一线方案选择：一线FOLFIRINOX失败后用吉西他滨±；一线吉西他滨失败后用FOLFIRINOX或NALIRIFOX",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "二线治疗需根据一线方案、患者体能状态和既往治疗反应个体化选择",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": "37235402"
+  },
+  {
+    "head": "MSI-H/dMMR转移性胰腺癌",
+    "relation": "CSCO 2024推荐免疫治疗",
+    "tail": "帕博利珠单抗(Pembrolizumab)",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "MSI-H/dMMR在胰腺癌中罕见（<1%），但对PD-1抑制剂高度敏感",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": "28462110"
+  },
+  {
+    "head": "NTRK融合阳性胰腺癌",
+    "relation": "CSCO 2024推荐靶向治疗",
+    "tail": "恩曲替尼(Entrectinib)或拉罗替尼(Larotrectinib)",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "NTRK融合在胰腺癌中极罕见（<0.5%），但一旦检出，TRK抑制剂可带来显著客观缓解",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": "31712543"
+  },
+  {
+    "head": "胰腺癌支持治疗",
+    "relation": "CSCO 2024推荐",
+    "tail": "积极止痛、营养支持、胆道支架（黄疸患者）、胃肠减压（梗阻者）",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌患者常伴剧烈腹痛、黄疸、消化道梗阻和恶液质，需要积极的多学科支持治疗",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后随访",
+    "relation": "CSCO 2024推荐监测频率",
+    "tail": "术后前2年每3-6个月一次，之后每6-12个月一次",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌术后复发率高（约70-80%），多发生于术后2年内",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌多学科诊疗(MDT)",
+    "relation": "CSCO 2024推荐",
+    "tail": "所有胰腺癌患者均应经过MDT讨论制定个体化治疗方案",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌诊疗涉及多学科，MDT讨论有助于提高R0切除率、选择最佳治疗方案",
+    "domain": "csco_2024",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌新辅助治疗",
+    "relation": "目的",
+    "tail": "提高R0切除率、消灭微转移、评估肿瘤生物学行为",
+    "source": "CSCO 2024胰腺癌诊疗指南 / NCCN指南2025",
+    "evidence": "新辅助治疗在BRPC和LA-PANC中已成为标准策略",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌转化治疗",
+    "relation": "策略",
+    "tail": "强有力化疗（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇）争取降期后切除",
+    "source": "CSCO 2024胰腺癌诊疗指南 / NCCN指南2025",
+    "evidence": "约10-30% LA-PANC患者化疗后可转化为可切除",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌根治性放疗",
+    "relation": "适应证",
+    "tail": "不可切除局部晚期胰腺癌或术后切缘阳性/淋巴结阳性者",
+    "source": "NCCN胰腺癌指南2025 / CSCO指南2024",
+    "evidence": "放疗是局部晚期胰腺癌的重要局部治疗手段",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌SBRT(立体定向体部放疗)",
+    "relation": "应用",
+    "tail": "适合一般状态好、局部病灶边界清楚的不可切除胰腺癌",
+    "source": "NCCN胰腺癌指南2025 / CSCO指南2024",
+    "evidence": "SBRT在胰腺癌局部控制中显示出良好疗效",
+    "domain": "csco_2024",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌胆道引流",
+    "relation": "策略",
+    "tail": "术前减黄（胆红素>250μmol/L时），优先选择ERCP+支架置入",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胆道引流可降低围手术期并发症风险",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术前营养支持",
+    "relation": "策略",
+    "tail": "营养风险筛查+营养支持（口服营养补充/EN/PN）",
+    "source": "CSCO 2024胰腺癌诊疗指南 / ESPEN指南",
+    "evidence": "胰腺癌患者营养不良风险高，术前营养支持改善预后",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后并发症",
+    "relation": "常见",
+    "tail": "胰瘘、胆瘘、胃排空延迟、腹腔感染、出血",
+    "source": "外科临床研究",
+    "evidence": "胰十二指肠切除术并发症发生率约30-50%",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疼痛管理",
+    "relation": "策略",
+    "tail": "阿片类药物（口服/透皮）+辅助镇痛药物+腹腔神经丛阻滞",
+    "source": "NCCN胰腺癌指南2025 / 癌痛管理指南",
+    "evidence": "胰腺癌疼痛多由腹腔神经丛受累引起，需多学科镇痛",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌恶液质管理",
+    "relation": "策略",
+    "tail": "营养支持+体力活动+药物治疗（如甲地孕酮）",
+    "source": "ESPEN指南 / CSCO指南2024",
+    "evidence": "恶液质是胰腺癌患者主要死亡原因之一",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌分子检测",
+    "relation": "CSCO 2024推荐",
+    "tail": "推荐检测BRCA1/2、NTRK、MSI/MMR、TMB",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "分子检测可指导靶向/免疫治疗选择",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌液体活检",
+    "relation": "应用前景",
+    "tail": "ctDNA检测基因突变、监测治疗反应和复发",
+    "source": "液体活检研究 / NCCN指南2025",
+    "evidence": "ctDNA是组织活检的重要补充",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疫苗",
+    "relation": "研究进展",
+    "tail": "mRNA疫苗、DC疫苗等正在临床试验中",
+    "source": "肿瘤疫苗研究 / 临床试验",
+    "evidence": "胰腺癌疫苗是新兴免疫疗法方向",
+    "domain": "csco_2024",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CAR-T治疗",
+    "relation": "研究进展",
+    "tail": "靶向间皮素(Mesothelin)等胰腺癌抗原的CAR-T正在探索",
+    "source": "细胞治疗研究 / 临床试验",
+    "evidence": "CAR-T在实体瘤中面临TME挑战",
+    "domain": "csco_2024",
+    "confidence": 0.7,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌新辅助治疗病理反应",
+    "relation": "预后意义",
+    "tail": "主要病理缓解(MPR)和病理完全缓解(pCR)提示较好预后",
+    "source": "CAPECIT研究 / 临床研究",
+    "evidence": "病理反应是重要的疗效预测指标",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术前CA19-9",
+    "relation": "预后意义",
+    "tail": "术前CA19-9水平与预后相关，术后CA19-9下降至正常提示较好预后",
+    "source": "临床研究",
+    "evidence": "CA19-9是胰腺癌重要的预后标志物",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌腹腔镜手术",
+    "relation": "适应证",
+    "tail": "适合早期、肿瘤较小、无血管侵犯的可切除胰腺癌",
+    "source": "外科临床研究 / NCCN指南2025",
+    "evidence": "腹腔镜手术在合适患者中安全可行",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌机器人手术",
+    "relation": "优势",
+    "tail": "视野放大、操作精细、失血少、恢复快",
+    "source": "外科临床研究",
+    "evidence": "机器人胰腺手术逐渐普及",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌全胰切除",
+    "relation": "适应证",
+    "tail": "肿瘤累及胰头+胰尾、多灶性肿瘤、遗传性胰腺癌综合征",
+    "source": "外科临床研究 / NCCN指南2025",
+    "evidence": "全胰切除后需终身胰岛素和胰酶替代治疗",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌遗传性综合征",
+    "relation": "类型",
+    "tail": "BRCA1/2、PALB2、CDKN2A、MLH1、MSH2等突变携带者",
+    "source": "临床遗传学 / NCCN指南2025",
+    "evidence": "遗传性胰腺癌综合征患者需加强筛查",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌筛查",
+    "relation": "适应证",
+    "tail": "遗传性胰腺癌综合征家系成员，每年CA19-9+MRI/MRCP/EUS",
+    "source": "NCCN胰腺癌指南2025 / CAPS3研究",
+    "evidence": "高危人群筛查有助于早期发现胰腺癌",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌糖尿病",
+    "relation": "关系",
+    "tail": "新发糖尿病（<3年）是胰腺癌危险因素，胰腺癌也可引起糖尿病",
+    "source": "临床研究 / 流行病学研究",
+    "evidence": "新发糖尿病需警惕胰腺癌可能",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌烟酒因素",
+    "relation": "风险",
+    "tail": "吸烟增加胰腺癌风险2-3倍；重度饮酒增加风险",
+    "source": "IARC / 流行病学研究",
+    "evidence": "戒烟限酒是胰腺癌预防重要措施",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌慢性胰腺炎",
+    "relation": "关系",
+    "tail": "慢性胰腺炎患者胰腺癌风险增加5-10倍",
+    "source": "流行病学研究",
+    "evidence": "慢性胰腺炎是胰腺癌癌前病变",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌家族史",
+    "relation": "风险",
+    "tail": "一级亲属患胰腺癌，本人风险增加2-3倍",
+    "source": "流行病学研究 / NCCN指南2025",
+    "evidence": "家族史是胰腺癌重要危险因素",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌肥胖与代谢综合征",
+    "relation": "关系",
+    "tail": "BMI≥30kg/m²者胰腺癌风险增加20-50%",
+    "source": "流行病学研究 / meta分析",
+    "evidence": "肥胖是胰腺癌可改变危险因素",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌饮食因素",
+    "relation": "影响",
+    "tail": "高脂饮食、红肉摄入增加风险；水果蔬菜、叶酸可能降低风险",
+    "source": "流行病学研究",
+    "evidence": "饮食是胰腺癌可改变危险因素",
+    "domain": "csco_2024",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌心理支持",
+    "relation": "重要性",
+    "tail": "胰腺癌患者抑郁焦虑发生率高，需积极心理干预",
+    "source": "肿瘤心理学研究",
+    "evidence": "心理支持改善生活质量和预后",
+    "domain": "csco_2024",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌中医中药治疗",
+    "relation": "定位",
+    "tail": "可作为辅助治疗，改善症状、提高生活质量",
+    "source": "CSCO指南2024 / 中医肿瘤研究",
+    "evidence": "中医药在胰腺癌综合治疗中有一定作用",
+    "domain": "csco_2024",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌康复管理",
+    "relation": "内容",
+    "tail": "体能康复、营养管理、心理支持、随访监测",
+    "source": "NCCN指南2025 / 肿瘤康复研究",
+    "evidence": "康复管理是胰腺癌全程管理的重要组成部分",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌临床试验",
+    "relation": "推荐",
+    "tail": "所有胰腺癌患者均鼓励参加适合的临床试验",
+    "source": "NCCN指南2025 / CSCO指南2024",
+    "evidence": "参加临床试验可获得最新治疗机会",
+    "domain": "csco_2024",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌新辅助化疗周期",
+    "relation": "一般推荐",
+    "tail": "2-6个月（4-12周期）",
+    "source": "CSCO指南2024",
+    "evidence": "充分新辅助化疗可提高降期率",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后随访CT",
+    "relation": "推荐频率",
+    "tail": "前2年每3-6个月一次，之后每6-12个月",
+    "source": "NCCN指南2025",
+    "evidence": "术后复发多发生在前2年内",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CA19-9随访",
+    "relation": "意义",
+    "tail": "术后CA19-9升高提示复发，需进一步影像检查",
+    "source": "NCCN指南2025",
+    "evidence": "CA19-9是复发监测核心标志物",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疼痛管理二线",
+    "relation": "药物选择",
+    "tail": "美沙酮、透皮芬太尼、氢吗啡酮",
+    "source": "癌痛管理指南",
+    "evidence": "阿片类产品是疼痛管理核心",
+    "domain": "csco_2024",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌恶液质管理",
+    "relation": "药物",
+    "tail": "甲地孕酮、皮质激素、褪黑素",
+    "source": "ESPEN指南",
+    "evidence": "恶液质是胰腺癌主要死因之一",
+    "domain": "csco_2024",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后胰岛素",
+    "relation": "使用",
+    "tail": "部分切除后需终身胰岛素替代",
+    "source": "术后管理指南",
+    "evidence": "全胰切除后100%需胰岛素",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后胰酶替代",
+    "relation": "指征",
+    "tail": "脂肪泻、体重下降者需胰酶替代",
+    "source": "ESPEN指南",
+    "evidence": "胰酶替代改善营养吸收",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌腹腔神经丛阻滞",
+    "relation": "适应证",
+    "tail": "腹痛且阿片类控制不佳者",
+    "source": "癌痛管理指南",
+    "evidence": "腹腔神经丛阻滞可显著缓解胰腺癌痛",
+    "domain": "csco_2024",
+    "confidence": 0.9,
+    "pmid": null
+  }
+]

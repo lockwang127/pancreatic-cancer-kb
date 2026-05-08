@@ -1,0 +1,452 @@
+[
+  {
+    "head": "NCCN胰腺癌指南2025.V2",
+    "relation": "发布时间",
+    "tail": "2025年2月",
+    "source": "NCCN Guidelines Version 2.2025",
+    "evidence": "NCCN.org发布的最新版本",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "NCCN 2025.V2",
+    "relation": "主要更新",
+    "tail": "强化精准治疗策略、一线治疗及局晚期/转移性疾病治疗策略调整",
+    "source": "NCCN胰腺癌指南2025.V2更新解读",
+    "evidence": "2025版指南更强调分子检测和个体化治疗",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌AJCC第8版TNM分期",
+    "relation": "T分期",
+    "tail": "T1(≤2cm)、T2(>2-4cm)、T3(>4cm或超出胰腺)、T4(侵犯腹腔干或SMA)",
+    "source": "AJCC Cancer Staging Manual第8版",
+    "evidence": "AJCC第8版是胰腺癌分期标准",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌N分期",
+    "relation": "定义",
+    "tail": "N0无区域淋巴结转移；N1有区域淋巴结转移",
+    "source": "AJCC第8版",
+    "evidence": "淋巴结状态是重要预后因素",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌M分期",
+    "relation": "定义",
+    "tail": "M0无远处转移；M1有远处转移",
+    "source": "AJCC第8版",
+    "evidence": "M1期预后差",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CA19-9",
+    "relation": "临床应用",
+    "tail": "诊断、疗效监测、随访复发监测",
+    "source": "NCCN胰腺癌指南2025 / 临床检验操作规程",
+    "evidence": "CA19-9是胰腺癌最重要的血清标志物",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9",
+    "relation": "正常值",
+    "tail": "<37U/ml（但炎症、胆道梗阻时可升高）",
+    "source": "临床检验操作规程",
+    "evidence": "CA19-9受Lewis抗原表达影响，Lewis阴性者不表达CA19-9",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9阴性胰腺癌",
+    "relation": "比例",
+    "tail": "约5-10%胰腺癌患者为Lewis抗原阴性，CA19-9不升高",
+    "source": "临床研究",
+    "evidence": "Lewis阴性者需依赖其他标志物",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "CEA",
+    "relation": "在胰腺癌中",
+    "tail": "约30-40%胰腺癌患者CEA升高",
+    "source": "临床检验操作规程",
+    "evidence": "CEA可作为CA19-9的补充标志物",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "CA-125",
+    "relation": "在胰腺癌中",
+    "tail": "盆腔种植转移或腹膜转移时可升高",
+    "source": "临床检验操作规程",
+    "evidence": "CA-125提示腹膜转移可能",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌CT检查",
+    "relation": "应用",
+    "tail": "胰腺CT薄层扫描（动脉期+门静脉期）是诊断分期首选",
+    "source": "NCCN胰腺癌指南2025",
+    "evidence": "CT可评估肿瘤可切除性",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌MRI/MRCP",
+    "relation": "应用",
+    "tail": "评估肝转移、血管侵犯、胰腺囊性肿瘤",
+    "source": "NCCN胰腺癌指南2025",
+    "evidence": "MRI对肝转移检出优于CT",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺EUS(超声内镜)",
+    "relation": "应用",
+    "tail": "可疑胰腺占位但CT/MRI阴性时，EUS+FNA确诊",
+    "source": "NCCN胰腺癌指南2025",
+    "evidence": "EUS是胰腺癌诊断的重要手段",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "PET-CT在胰腺癌",
+    "relation": "应用",
+    "tail": "评估远处转移、鉴别良恶性胰腺占位",
+    "source": "NCCN胰腺癌指南2025",
+    "evidence": "PET-CT在胰腺癌分期中有一定价值",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "BRCA1/2突变",
+    "relation": "在胰腺癌中",
+    "tail": "约5-7%胰腺癌存在BRCA1/2胚系突变",
+    "source": "POLO研究 / 临床研究",
+    "evidence": "BRCA突变是PARP抑制剂敏感标志物",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "PALB2突变",
+    "relation": "在胰腺癌中",
+    "tail": "约2-3%胰腺癌存在PALB2突变",
+    "source": "临床研究",
+    "evidence": "PALB2突变提示HRR缺陷",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "NTRK融合",
+    "relation": "在胰腺癌中",
+    "tail": "极罕见（<0.5%），可用TRK抑制剂治疗",
+    "source": "NCCN指南2025 / 临床研究",
+    "evidence": "NTRK融合阳性者可用恩曲替尼/拉罗替尼",
+    "domain": "biomarkers",
+    "confidence": 0.75,
+    "pmid": "31712543"
+  },
+  {
+    "head": "MSI-H/dMMR",
+    "relation": "在胰腺癌中",
+    "tail": "约1-2%胰腺癌存在MSI-H/dMMR",
+    "source": "KEYNOTE-158研究 / NCCN指南2025",
+    "evidence": "MSI-H/dMMR胰腺癌对PD-1抑制剂敏感",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": "28462110"
+  },
+  {
+    "head": "TMB-H(肿瘤突变负荷高)",
+    "relation": "在胰腺癌中",
+    "tail": "约2-5%胰腺癌存在TMB-H（≥10 mut/Mb）",
+    "source": "临床研究 / NCCN指南2025",
+    "evidence": "TMB-H可预测免疫治疗疗效",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "KRAS突变",
+    "relation": "在胰腺癌中",
+    "tail": "约90%胰腺癌存在KRAS突变（G12D/G12V/G12R最常见）",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "KRAS是胰腺癌最重要的驱动基因",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12C突变",
+    "relation": "在胰腺癌中",
+    "tail": "约1-2%胰腺癌存在KRAS G12C突变",
+    "source": "临床研究",
+    "evidence": "KRAS G12C抑制剂（Sotorasib/Adagrasib）可用于治疗",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "TP53突变",
+    "relation": "在胰腺癌中",
+    "tail": "约50-75%胰腺癌存在TP53突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "TP53突变是胰腺癌早期事件",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "CDKN2A缺失",
+    "relation": "在胰腺癌中",
+    "tail": "约90%胰腺癌存在CDKN2A缺失/突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "CDKN2A缺失导致细胞周期失控",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "SMAD4/DPC4缺失",
+    "relation": "在胰腺癌中",
+    "tail": "约50-55%胰腺癌存在SMAD4缺失/突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "SMAD4缺失与TME纤维化相关",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌组织学分型",
+    "relation": "WHO 2020分类",
+    "tail": "导管腺癌（约85%）、腺鳞癌、鳞癌、未分化癌、神经内分泌癌等",
+    "source": "WHO女性生殖器官肿瘤分类2020（参考胰腺分册）",
+    "evidence": "导管腺癌是最常见的胰腺癌类型",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌前病变",
+    "relation": "类型",
+    "tail": "IPMN（导管内乳头状黏液性肿瘤）、MCT（黏液性囊腺瘤）、PanIN（导管上皮内瘤变）",
+    "source": "WHO胰腺肿瘤分类2020",
+    "evidence": "癌前病变需密切随访或手术",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "IPMN（导管内乳头状黏液性肿瘤）",
+    "relation": "恶变风险",
+    "tail": "主胰管型IPMN恶变风险约40-70%",
+    "source": "NCCN胰腺癌指南2025 / 国际共识",
+    "evidence": "主胰管型IPMN推荐手术切除",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9在治疗监测中",
+    "relation": "意义",
+    "tail": "化疗后CA19-9下降≥50%提示治疗有效",
+    "source": "临床研究 / NCCN指南2025",
+    "evidence": "CA19-9动态变化是疗效评估指标",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌ctDNA",
+    "relation": "应用前景",
+    "tail": "检测KRAS突变、监测治疗反应、早期发现复发",
+    "source": "液体活检研究 / NCCN指南2025",
+    "evidence": "ctDNA是胰腺癌精准监测工具",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌多组学研究",
+    "relation": "发现",
+    "tail": "全基因组/转录组/蛋白组整合揭示新靶点和生物标志物",
+    "source": "Nature Communications 2024 / 多组学研究",
+    "evidence": "多组学推动胰腺癌精准医学",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌肿瘤微环境(TME)",
+    "relation": "特点",
+    "tail": "致密纤维化基质、免疫抑制性髓系细胞丰富、T细胞稀少",
+    "source": "肿瘤微环境研究",
+    "evidence": "TME是胰腺癌免疫治疗耐药的主要原因",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺星状细胞(PSC)",
+    "relation": "在胰腺癌中作用",
+    "tail": "PSC激活后分泌大量ECM，形成致密纤维化基质",
+    "source": "肿瘤微环境研究",
+    "evidence": "PSC是TME的重要组成细胞",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "CXCL12/CXCR4轴",
+    "relation": "在胰腺癌中",
+    "tail": "CXCL12/CXCR4轴促进肿瘤转移和免疫抑制",
+    "source": "肿瘤微环境研究",
+    "evidence": "CXCR4拮抗剂正在探索中",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "TGF-β通路",
+    "relation": "在胰腺癌中",
+    "tail": "TGF-β促进纤维化、免疫抑制、EMT",
+    "source": "肿瘤微环境研究",
+    "evidence": "TGF-β抑制剂正在探索中",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌外泌体",
+    "relation": "研究进展",
+    "tail": "外泌体携带miRNA、lncRNA等参与肿瘤进展和转移",
+    "source": "肿瘤微环境研究",
+    "evidence": "外泌体是胰腺癌液体活检新方向",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌类器官模型",
+    "relation": "应用",
+    "tail": "个体化药物敏感性测试、新药研发",
+    "source": "类器官研究",
+    "evidence": "类器官是胰腺癌精准医学重要工具",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌PDX(患者来源异种移植)模型",
+    "relation": "应用",
+    "tail": "新药评估、个体化治疗反应预测",
+    "source": "肿瘤模型研究",
+    "evidence": "PDX模型保留原肿瘤特征",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌AI辅助诊断",
+    "relation": "进展",
+    "tail": "AI辅助CT/MRI影像分析、EUS影像分析提高诊断准确性",
+    "source": "医疗AI研究",
+    "evidence": "AI是提高胰腺癌早期诊断的工具",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌EUS-FNA",
+    "relation": "诊断准确性",
+    "tail": "敏感性85-90%，特异性接近100%",
+    "source": "NCCN指南2025",
+    "evidence": "EUS-FNA是胰腺占位确诊手段",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌EUS弹性成像",
+    "relation": "应用",
+    "tail": "鉴别良恶性胰腺占位，提高诊断准确性",
+    "source": "影像学研究",
+    "evidence": "弹性成像是EUS的重要补充",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌MRI弥散加权成像",
+    "relation": "应用",
+    "tail": "DWI提高肝转移和胰腺占位检出",
+    "source": "影像学研究",
+    "evidence": "DWI是MRI的重要序列",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌PET-MRI",
+    "relation": "应用前景",
+    "tail": "融合解剖和代谢信息，提高诊断准确性",
+    "source": "影像学研究",
+    "evidence": "PET-MRI在胰腺癌中应用增加",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌液体活检技术",
+    "relation": "方法",
+    "tail": "ctDNA、外泌体、循环肿瘤细胞",
+    "source": "液体活检研究",
+    "evidence": "多种液体活检技术正在发展",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌ctDNA甲基化",
+    "relation": "研究进展",
+    "tail": "甲基化标志物提高早期诊断率",
+    "source": "液体活检研究",
+    "evidence": "甲基化是新兴液体活检方向",
+    "domain": "biomarkers",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌外泌体IncRNA",
+    "relation": "研究进展",
+    "tail": "IncRNA作为诊断和预后标志物",
+    "source": "液体活检研究",
+    "evidence": "外泌体IncRNA是新兴方向",
+    "domain": "biomarkers",
+    "confidence": 0.75,
+    "pmid": null
+  }
+]

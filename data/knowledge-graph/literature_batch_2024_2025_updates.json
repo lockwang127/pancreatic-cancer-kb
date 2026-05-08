@@ -1,0 +1,652 @@
+[
+  {
+    "head": "Daraxonrasib",
+    "relation": "靶点",
+    "tail": "Pan-RAS抑制剂，可靶向KRAS G12D、G12V、G12R、Q61X等多种突变",
+    "source": "MSK / Revolution Medicines 2026",
+    "evidence": "Pan-RAS抑制剂覆盖多种RAS突变",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "Daraxonrasib",
+    "relation": "临床数据",
+    "tail": "一线治疗转移性胰腺癌38例，ORR 47%，6个月PFS率71%，6个月OS率83%",
+    "source": "AACR 2026 / RASolute 302研究",
+    "evidence": "Pan-RAS抑制剂在胰腺癌中显示活性",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "Daraxonrasib",
+    "relation": "优势",
+    "tail": "口服给药，副作用较化疗轻，可作为一线治疗",
+    "source": "MSK新闻稿2026",
+    "evidence": "口服靶向药是胰腺癌治疗新方向",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "Setidegrasib",
+    "relation": "作用机制",
+    "tail": "KRAS降解剂，诱导身体不需要KRAS突变产生的蛋白，从而将其清除",
+    "source": "NEJM 2026 / Dr. Wungki Park",
+    "evidence": "KRAS降解是新型靶向策略",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "Setidegrasib",
+    "relation": "临床阶段",
+    "tail": "First-in-human, first-in-class研究，发表在NEJM 2026年3月",
+    "source": "NEJM 2026",
+    "evidence": "KRAS降解剂进入临床",
+    "domain": "treatment",
+    "confidence": 0.80,
+    "pmid": null
+  },
+  {
+    "head": "HRS-4642",
+    "relation": "靶点",
+    "tail": "KRAS G12D抑制剂",
+    "source": "Frontiers in Pharmacology 2025",
+    "evidence": "KRAS G12D是胰腺癌最常见突变",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "HRS-4642",
+    "relation": "联合方案",
+    "tail": "HRS-4642联合尼妥珠单抗(EGFR抑制剂)用于KRAS G12D突变患者",
+    "source": "Frontiers in Pharmacology 2025",
+    "evidence": "KRAS抑制剂+EGFR抑制剂协同",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "Garsorasib",
+    "relation": "靶点",
+    "tail": "KRAS G12C抑制剂",
+    "source": "Nature 2025 / Garsorasib研究",
+    "evidence": "Garsorasib在KRAS G12C突变晚期胰腺癌中显示抗肿瘤活性",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "Garsorasib",
+    "relation": "临床数据",
+    "tail": "KRAS G12C突变晚期胰腺癌患者显示可控的安全性和抗肿瘤活性",
+    "source": "Nature 2025",
+    "evidence": "KRAS G12C抑制剂在胰腺癌中有效",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "Adagrasib",
+    "relation": "胰腺癌数据",
+    "tail": "KRYSTAL-1研究，Adagrasib在KRAS G12C突变胰腺癌中显示活性",
+    "source": "KRYSTAL-1研究",
+    "evidence": "Adagrasib是KRAS G12C突变胰腺癌选择",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "Sotorasib",
+    "relation": "胰腺癌数据",
+    "tail": "CodeBreak-100研究，Sotorasib在KRAS G12C突变胰腺癌中显示活性",
+    "source": "CodeBreak-100研究",
+    "evidence": "Sotorasib是KRAS G12C突变胰腺癌选择",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "MRTX1133",
+    "relation": "靶点",
+    "tail": "KRAS G12D抑制剂，临床前显示强效抗肿瘤活性",
+    "source": "新药研发",
+    "evidence": "KRAS G12D抑制剂正在临床试验中",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "AB501",
+    "relation": "靶点",
+    "tail": "KRAS G12D抑制剂，正在临床试验中",
+    "source": "临床试验",
+    "evidence": "多个KRAS G12D抑制剂在研",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "SHP2抑制剂",
+    "relation": "联合方案",
+    "tail": "SHP2抑制剂与KRAS抑制剂联合，正在探索中",
+    "source": "临床试验",
+    "evidence": "SHP2抑制剂阻断KRAS下游信号",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "SOS1抑制剂",
+    "relation": "作用机制",
+    "tail": "SOS1是KRAS上游激活因子，抑制SOS1可阻断KRAS激活",
+    "source": "分子靶向研究",
+    "evidence": "SOS1是KRAS通路重要节点",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12D",
+    "relation": "在胰腺癌中",
+    "tail": "约40%胰腺癌携带KRAS G12D突变，是最重要的治疗靶点之一",
+    "source": "流行病学研究",
+    "evidence": "KRAS G12D是胰腺癌最常见突变",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12V",
+    "relation": "在胰腺癌中",
+    "tail": "约30-35%胰腺癌携带KRAS G12V突变",
+    "source": "流行病学研究",
+    "evidence": "KRAS G12V是第二常见突变",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12C",
+    "relation": "在胰腺癌中",
+    "tail": "约1-2%胰腺癌携带KRAS G12C突变",
+    "source": "流行病学研究",
+    "evidence": "KRAS G12C在胰腺癌中罕见",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "KRAS野生型胰腺癌",
+    "relation": "靶向治疗",
+    "tail": "KRAS野生型约占10%，可能从EGFR抑制剂获益",
+    "source": "临床研究",
+    "evidence": "KRAS野生型治疗选择不同",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "NTRK融合",
+    "relation": "胰腺癌中频率",
+    "tail": "NTRK融合在胰腺癌中极罕见(<1%)",
+    "source": "NCCN指南2025",
+    "evidence": "NTRK融合是泛肿瘤靶点",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "NTRK抑制剂",
+    "relation": "胰腺癌适应证",
+    "tail": "恩曲替尼/拉罗替尼可用于NTRK融合阳性胰腺癌",
+    "source": "NCCN指南2025",
+    "evidence": "NTRK抑制是精准治疗选择",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "RET融合",
+    "relation": "胰腺癌中频率",
+    "tail": "RET融合在胰腺癌中极罕见",
+    "source": "临床研究",
+    "evidence": "RET融合是治疗靶点",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "RET抑制剂",
+    "relation": "胰腺癌适应证",
+    "tail": "Selpercatinib等RET抑制剂可用于RET融合阳性胰腺癌",
+    "source": "临床研究",
+    "evidence": "RET抑制是精准治疗选择",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "BRAF V600E突变",
+    "relation": "胰腺癌中频率",
+    "tail": "BRAF V600E突变在胰腺癌中约占2-5%",
+    "source": "临床研究",
+    "evidence": "BRAF突变是潜在靶点",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "BRAF抑制剂",
+    "relation": "胰腺癌适应证",
+    "tail": "达拉菲尼+曲美替尼(BRAF+MEK抑制剂)可用于BRAF V600E突变胰腺癌",
+    "source": "临床研究",
+    "evidence": "BRAF+MEK抑制是BRAF突变选择",
+    "domain": "treatment",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "PARP抑制剂",
+    "relation": "胰腺癌适应证",
+    "tail": "奥拉帕利用于BRCA1/2或PALB2突变胰腺癌维持治疗",
+    "source": "POLO研究 / NCCN指南2025",
+    "evidence": "奥拉帕利是HRR缺陷胰腺癌标准",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "POLO研究",
+    "relation": "主要结果",
+    "tail": "奥拉帕利维持治疗显著延长BRCA突变胰腺癌PFS(7.4月 vs 3.8月)",
+    "source": "POLO研究 / NEJM 2019",
+    "evidence": "POLO奠定PARPi在胰腺癌中地位",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "BRCA突变",
+    "relation": "胰腺癌中频率",
+    "tail": "BRCA1/2突变约占5-7%胰腺癌",
+    "source": "流行病学研究",
+    "evidence": "BRCA突变是重要生物标志物",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "PALB2突变",
+    "relation": "胰腺癌中频率",
+    "tail": "PALB2突变约占1-2%胰腺癌",
+    "source": "遗传学研究",
+    "evidence": "PALB2是HRR基因",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "吉西他滨+白蛋白紫杉醇",
+    "relation": "一线标准",
+    "tail": "AG方案(吉西他滨+白蛋白紫杉醇)是不可切除胰腺癌一线标准方案",
+    "source": "MPACT研究 / NCCN/CSCO指南2025",
+    "evidence": "AG方案改善OS",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "FOLFIRINOX",
+    "relation": "一线标准",
+    "tail": "FOLFIRINOX(5-FU+伊立替康+奥沙利铂)是PS良好患者一线选择",
+    "source": "PRODIGE研究 / NCCN/CSCO指南2025",
+    "evidence": "FOLFIRINOX改善OS但毒性更大",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "NALIRIFOX",
+    "relation": "一线方案",
+    "tail": "脂质体伊立替康+5-FU+奥沙利铂用于一线治疗",
+    "source": "NAPOLI-3研究",
+    "evidence": "NALIRIFOX是FOLFIRINOX改良方案",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "AG方案",
+    "relation": "用法用量",
+    "tail": "吉西他滨1000mg/m² d1,8,15 + 白蛋白紫杉醇125mg/m² d1,8,15 q4w",
+    "source": "MPACT研究",
+    "evidence": "AG方案标准用法",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "白蛋白紫杉醇",
+    "relation": "作用机制",
+    "tail": "白蛋白结合型紫杉醇，利用白蛋白主动转运增加肿瘤内药物浓度",
+    "source": "药理学研究",
+    "evidence": "白蛋白紫杉醇增强吉西他滨递送",
+    "domain": "treatment",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "脂质体伊立替康",
+    "relation": "适应证",
+    "tail": "用于二线治疗联合5-FU/LV",
+    "source": "NAPOLI-1研究",
+    "evidence": "脂质体伊立替康是二线选择",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "S-1",
+    "relation": "在胰腺癌中",
+    "tail": "S-1是胰腺癌有效化疗药物，可单药或联合使用",
+    "source": "临床研究",
+    "evidence": "S-1在亚洲广泛应用",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "AG方案后进展",
+    "relation": "二线方案",
+    "tail": "脂质体伊立替康+5-FU/LV是标准二线方案",
+    "source": "NAPOLI-1研究 / NCCN指南2025",
+    "evidence": "二线化疗是标准",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "FOLFIRINOX后进展",
+    "relation": "二线方案",
+    "tail": "吉西他滨单药或AG方案是FOLFIRINOX后二线选择",
+    "source": "临床实践",
+    "evidence": "化疗方案可交替使用",
+    "domain": "treatment",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "免疫检查点抑制剂",
+    "relation": "胰腺癌中现状",
+    "tail": "PD-1/PD-L1抑制剂在胰腺癌中单药活性有限，联合化疗在探索中",
+    "source": "临床研究",
+    "evidence": "胰腺癌是冷肿瘤，免疫治疗困难",
+    "domain": "treatment",
+    "confidence": 0.80,
+    "pmid": null
+  },
+  {
+    "head": "MSI-H/dMMR",
+    "relation": "胰腺癌中频率",
+    "tail": "MSI-H/dMMR在胰腺癌中极罕见，但这类患者可从PD-1抑制剂获益",
+    "source": "临床研究",
+    "evidence": "MSI-H是免疫治疗生物标志物",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "TMB-H",
+    "relation": "胰腺癌中频率",
+    "tail": "TMB-H在胰腺癌中极罕见，高TMB患者可能从免疫治疗获益",
+    "source": "临床研究",
+    "evidence": "TMB是泛肿瘤生物标志物",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "CAR-T细胞治疗",
+    "relation": "胰腺癌靶点",
+    "tail": "间皮素、Claudin 18.2、HER2、MUC1是主要靶点",
+    "source": "细胞治疗研究",
+    "evidence": "CAR-T在胰腺癌中面临TME挑战",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "间皮素CAR-T",
+    "relation": "研究进展",
+    "tail": "针对间皮素的CAR-T正在临床试验中，初步显示安全性",
+    "source": "临床试验",
+    "evidence": "间皮素CAR-T是研究热点",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "Claudin 18.2 CAR-T",
+    "relation": "研究进展",
+    "tail": "CT041(Claudin 18.2 CAR-T)正在临床试验中",
+    "source": "临床试验",
+    "evidence": "Claudin 18.2是胃癌/胰腺癌靶点",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "肿瘤疫苗",
+    "relation": "胰腺癌进展",
+    "tail": "mRNA疫苗、DC疫苗、肽疫苗正在临床试验中",
+    "source": "疫苗研究",
+    "evidence": "新代疫苗旨在克服免疫抑制微环境",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "mRNA肿瘤疫苗",
+    "relation": "胰腺癌进展",
+    "tail": "BNT111等mRNA疫苗正在与PD-1抑制剂联合探索",
+    "source": "临床试验",
+    "evidence": "mRNA疫苗是新兴方向",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "TGF-β抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "Galunisertib等TGF-β抑制剂与PD-1抑制剂联合正在探索",
+    "source": "临床试验",
+    "evidence": "TGF-β是免疫抑制核心通路",
+    "domain": "treatment",
+    "confidence": 0.78,
+    "pmid": null
+  },
+  {
+    "head": "PEGPH20",
+    "relation": "作用机制",
+    "tail": "透明质酸酶，通过降解透明质酸减少间质压力",
+    "source": "HALO-202研究",
+    "evidence": "PEGPH20旨在提高药物递送",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "维生素D类似物",
+    "relation": "胰腺癌",
+    "tail": "Paricalcitol等维生素D受体激动剂可能重编程星状细胞",
+    "source": "临床前研究",
+    "evidence": "基质调节是潜在策略",
+    "domain": "treatment",
+    "confidence": 0.68,
+    "pmid": null
+  },
+  {
+    "head": "CD40激动剂",
+    "relation": "胰腺癌进展",
+    "tail": "CD40激动剂与化疗/PD-1抑制剂联合正在探索",
+    "source": "临床试验",
+    "evidence": "CD40激动剂激活免疫",
+    "domain": "treatment",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "OX40激动剂",
+    "relation": "胰腺癌进展",
+    "tail": "OX40激动剂正在与化疗联合探索",
+    "source": "临床试验",
+    "evidence": "OX40是T细胞激活靶点",
+    "domain": "treatment",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "CCR2抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "CCR2抑制剂正在探索，用于减少促肿瘤巨噬细胞",
+    "source": "临床试验",
+    "evidence": "CCR2参与肿瘤免疫逃逸",
+    "domain": "treatment",
+    "confidence": 0.68,
+    "pmid": null
+  },
+  {
+    "head": "CSF-1R抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "CSF-1R抑制剂正在与PD-1抑制剂联合探索",
+    "source": "临床试验",
+    "evidence": "CSF-1R抑制减少TAM",
+    "domain": "treatment",
+    "confidence": 0.70,
+    "pmid": null
+  },
+  {
+    "head": "CXCR4拮抗剂",
+    "relation": "胰腺癌进展",
+    "tail": "Balixafortide等CXCR4拮抗剂正在探索",
+    "source": "临床试验",
+    "evidence": "CXCR4参与转移",
+    "domain": "treatment",
+    "confidence": 0.68,
+    "pmid": null
+  },
+  {
+    "head": "STAT3抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "STAT3是胰腺癌关键转录因子，抑制剂正在探索",
+    "source": "临床前研究",
+    "evidence": "STAT3与预后相关",
+    "domain": "treatment",
+    "confidence": 0.65,
+    "pmid": null
+  },
+  {
+    "head": "NOTCH抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "NOTCH通路参与胰腺癌干细胞维持，抑制剂正在探索",
+    "source": "临床前研究",
+    "evidence": "NOTCH是潜在靶点",
+    "domain": "treatment",
+    "confidence": 0.62,
+    "pmid": null
+  },
+  {
+    "head": "Hedgehog抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "Smoothened抑制剂在胰腺癌中单药活性有限",
+    "source": "临床研究",
+    "evidence": "Hedgehog通路与基质相关",
+    "domain": "treatment",
+    "confidence": 0.60,
+    "pmid": null
+  },
+  {
+    "head": "Wnt抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "Wnt通路参与胰腺癌干细胞，抑制剂正在探索",
+    "source": "临床前研究",
+    "evidence": "Wnt是潜在靶点",
+    "domain": "treatment",
+    "confidence": 0.60,
+    "pmid": null
+  },
+  {
+    "head": "表观遗传药物",
+    "relation": "胰腺癌进展",
+    "tail": "HDAC抑制剂、EZH2抑制剂正在与化疗/免疫治疗联合探索",
+    "source": "临床试验",
+    "evidence": "表观遗传调节是新兴方向",
+    "domain": "treatment",
+    "confidence": 0.65,
+    "pmid": null
+  },
+  {
+    "head": "EZH2抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "Tazemetostat等EZH2抑制剂正在探索",
+    "source": "临床试验",
+    "evidence": "EZH2参与表观遗传调控",
+    "domain": "treatment",
+    "confidence": 0.65,
+    "pmid": null
+  },
+  {
+    "head": "HDAC抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "伏立诺他等HDAC抑制剂正在探索",
+    "source": "临床试验",
+    "evidence": "HDAC抑制剂调节基因表达",
+    "domain": "treatment",
+    "confidence": 0.62,
+    "pmid": null
+  },
+  {
+    "head": "BRD4抑制剂",
+    "relation": "胰腺癌进展",
+    "tail": "BRD4是表观遗传读取器，正在探索中",
+    "source": "临床前研究",
+    "evidence": "BRD4参与转录调控",
+    "domain": "treatment",
+    "confidence": 0.60,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9",
+    "relation": "诊断价值",
+    "tail": "CA19-9是胰腺癌最常用的血清标志物，但特异性有限",
+    "source": "临床实践",
+    "evidence": "CA19-9用于监测治疗反应",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9",
+    "relation": "局限性",
+    "tail": "Lewis血型阴性患者不产生CA19-9，约5-10%人群",
+    "source": "临床实践",
+    "evidence": "CA19-9有检测盲区",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "ctDNA",
+    "relation": "胰腺癌应用",
+    "tail": "ctDNA可检测基因变异，指导靶向治疗选择",
+    "source": "临床研究",
+    "evidence": "ctDNA是液体活检工具",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": null
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "head": "胰腺癌KRAS突变",
+    "relation": "临床意义",
+    "tail": "约90%胰腺癌存在KRAS突变（G12D/G12V/G12R最常见）",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "KRAS是胰腺癌最重要的驱动基因",
+    "domain": "biomarkers",
+    "confidence": 0.98,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12C突变",
+    "relation": "靶向治疗",
+    "tail": "Sotorasib、Adagrasib等KRAS G12C抑制剂可用于治疗",
+    "source": "CodeBreak-100 / KRYSTAL-1研究",
+    "evidence": "KRAS G12C突变在胰腺癌中占1-2%，已有FDA批准药物",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "KRAS G12D突变",
+    "relation": "靶向治疗进展",
+    "tail": "MRTX1133、AB501等KRAS G12D抑制剂正在临床试验中",
+    "source": "新药研发 / 临床试验",
+    "evidence": "KRAS G12D是胰腺癌最常见突变，是研发热点",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "TP53突变",
+    "relation": "在胰腺癌中",
+    "tail": "约50-75%胰腺癌存在TP53突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "TP53突变是胰腺癌早期事件",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "CDKN2A缺失",
+    "relation": "在胰腺癌中",
+    "tail": "约90%胰腺癌存在CDKN2A缺失/突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "CDKN2A缺失导致细胞周期失控",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "SMAD4/DPC4缺失",
+    "relation": "在胰腺癌中",
+    "tail": "约50-55%胰腺癌存在SMAD4缺失/突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "SMAD4缺失与TME纤维化相关",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "BRCA1/2突变",
+    "relation": "在胰腺癌中",
+    "tail": "约5-7%胰腺癌存在BRCA1/2胚系突变",
+    "source": "POLO研究 / 临床研究",
+    "evidence": "BRCA突变是PARP抑制剂敏感标志物",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "PALB2突变",
+    "relation": "在胰腺癌中",
+    "tail": "约2-3%胰腺癌存在PALB2突变",
+    "source": "临床研究",
+    "evidence": "PALB2突变提示HRR缺陷",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "ATM突变",
+    "relation": "在胰腺癌中",
+    "tail": "约5-7%胰腺癌存在ATM突变",
+    "source": "临床研究 / TCGA",
+    "evidence": "ATM突变可能提示PARP抑制剂敏感",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "PIK3CA突变",
+    "relation": "在胰腺癌中",
+    "tail": "约5-10%胰腺癌存在PIK3CA突变",
+    "source": "TCGA / 分子病理研究",
+    "evidence": "PIK3CA突变可能作为治疗靶点",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "TGF-β通路异常",
+    "relation": "在胰腺癌中",
+    "tail": "TGF-β通路激活促进纤维化、免疫抑制、EMT",
+    "source": "肿瘤微环境研究",
+    "evidence": "TGF-β是胰腺癌TME核心通路",
+    "domain": "biomarkers",
+    "confidence": 0.92,
+    "pmid": null
+  },
+  {
+    "head": "间皮素(Mesothelin)",
+    "relation": "在胰腺癌中",
+    "tail": "约80-90%胰腺癌过表达间皮素",
+    "source": "肿瘤抗原研究",
+    "evidence": "间皮素是胰腺癌靶向治疗热点靶点",
+    "domain": "biomarkers",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "Claudin 18.2",
+    "relation": "在胰腺癌中",
+    "tail": "约50-60%胰腺癌表达Claudin 18.2",
+    "source": "临床研究 / 分子病理研究",
+    "evidence": "Claudin 18.2是ADC和CAR-T的热门靶点",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "HER2扩增",
+    "relation": "在胰腺癌中",
+    "tail": "约5-10%胰腺癌存在HER2扩增/过表达",
+    "source": "临床研究",
+    "evidence": "HER2是胰腺癌ADC潜在靶点",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "EGFR过表达",
+    "relation": "在胰腺癌中",
+    "tail": "约50-60%胰腺癌过表达EGFR",
+    "source": "临床研究 / 分子病理研究",
+    "evidence": "EGFR是胰腺癌潜在治疗靶点",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "VEGF/VEGFR通路",
+    "relation": "在胰腺癌中",
+    "tail": "胰腺癌高表达VEGF，血管生成活跃",
+    "source": "肿瘤血管生成研究",
+    "evidence": "抗血管生成是胰腺癌治疗策略之一",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "FGFR通路异常",
+    "relation": "在胰腺癌中",
+    "tail": "约5-10%胰腺癌存在FGFR1/2扩增或FGFR3融合",
+    "source": "分子病理研究",
+    "evidence": "FGFR抑制剂正在探索中",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "NTRK融合",
+    "relation": "在胰腺癌中",
+    "tail": "极罕见（<0.5%），可用TRK抑制剂治疗",
+    "source": "临床研究 / NCCN指南2025",
+    "evidence": "NTRK融合阳性者可用恩曲替尼/拉罗替尼",
+    "domain": "biomarkers",
+    "confidence": 0.75,
+    "pmid": "31712543"
+  },
+  {
+    "head": "MSI-H/dMMR",
+    "relation": "在胰腺癌中",
+    "tail": "约1-2%胰腺癌存在MSI-H/dMMR",
+    "source": "KEYNOTE-158研究 / NCCN指南2025",
+    "evidence": "MSI-H/dMMR胰腺癌对PD-1抑制剂敏感",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": "28462110"
+  },
+  {
+    "head": "TMB-H(肿瘤突变负荷高)",
+    "relation": "在胰腺癌中",
+    "tail": "约2-5%胰腺癌存在TMB-H（≥10 mut/Mb）",
+    "source": "临床研究 / NCCN指南2025",
+    "evidence": "TMB-H可预测免疫治疗疗效",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "PD-L1表达",
+    "relation": "在胰腺癌中",
+    "tail": "约30-50%胰腺癌表达PD-L1（CPS≥1）",
+    "source": "肿瘤免疫研究",
+    "evidence": "PD-L1表达与免疫治疗反应相关",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "CD8+ T细胞浸润",
+    "relation": "与胰腺癌预后",
+    "tail": "高CD8+ T细胞浸润提示较好预后",
+    "source": "肿瘤免疫研究",
+    "evidence": "免疫微环境影响胰腺癌预后",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "Tregs(调节性T细胞)",
+    "relation": "在胰腺癌中",
+    "tail": "高Tregs浸润提示免疫抑制和较差预后",
+    "source": "肿瘤免疫研究",
+    "evidence": "Tregs是胰腺癌免疫逃逸的重要介质",
+    "domain": "biomarkers",
+    "confidence": 0.82,
+    "pmid": null
+  },
+  {
+    "head": "MDSCs(髓系来源抑制细胞)",
+    "relation": "在胰腺癌中",
+    "tail": "MDSCs大量浸润是胰腺癌免疫抑制的核心机制",
+    "source": "肿瘤免疫研究",
+    "evidence": "清除MDSCs是免疫治疗增敏策略",
+    "domain": "biomarkers",
+    "confidence": 0.9,
+    "pmid": null
+  },
+  {
+    "head": "TAMs(肿瘤相关巨噬细胞)",
+    "relation": "在胰腺癌中",
+    "tail": "M2型TAMs占优势，促进肿瘤进展和免疫抑制",
+    "source": "肿瘤免疫研究",
+    "evidence": "TAMs重极化是免疫治疗增敏策略",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "CA19-9基因检测",
+    "relation": "意义",
+    "tail": "Lewis抗原基因型影响CA19-9表达",
+    "source": "临床检验研究",
+    "evidence": "Lewis阴性者CA19-9不升高",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌ctDNA",
+    "relation": "应用前景",
+    "tail": "检测KRAS突变、监测治疗反应和早期发现复发",
+    "source": "液体活检研究 / NCCN指南2025",
+    "evidence": "ctDNA是胰腺癌精准监测工具",
+    "domain": "biomarkers",
+    "confidence": 0.88,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌外泌体",
+    "relation": "研究进展",
+    "tail": "外泌体携带miRNA、lncRNA等参与肿瘤进展",
+    "source": "肿瘤微环境研究",
+    "evidence": "外泌体是胰腺癌液体活检新方向",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌多组学整合",
+    "relation": "研究进展",
+    "tail": "全基因组+转录组+蛋白组整合揭示新靶点和生物标志物",
+    "source": "Nature Communications 2024 / 多组学研究",
+    "evidence": "多组学推动胰腺癌精准医学",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌类器官模型",
+    "relation": "应用",
+    "tail": "个体化药物敏感性测试、新药研发",
+    "source": "类器官研究",
+    "evidence": "类器官保留原肿瘤特征",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌PDX模型",
+    "relation": "应用",
+    "tail": "新药评估、个体化治疗反应预测",
+    "source": "肿瘤模型研究",
+    "evidence": "PDX模型保留原肿瘤特征",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌AI辅助诊断",
+    "relation": "进展",
+    "tail": "AI辅助CT/MRI影像分析、EUS影像分析提高诊断准确性",
+    "source": "医疗AI研究",
+    "evidence": "AI是提高胰腺癌早期诊断的工具",
+    "domain": "biomarkers",
+    "confidence": 0.8,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌基因检测panel",
+    "relation": "推荐",
+    "tail": "推荐检测KRAS、BRCA1/2、PALB2、ATM、NTRK、MSI/MMR、TMB",
+    "source": "CSCO指南2024 / NCCN指南2025",
+    "evidence": "基因检测指导靶向/免疫治疗选择",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌KRAS G12V抑制剂",
+    "relation": "代表药物",
+    "tail": "MRTX0901等正在开发中",
+    "source": "新药研发",
+    "evidence": "KRAS G12V是胰腺癌第二大常见突变",
+    "domain": "biomarkers",
+    "confidence": 0.72,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌SOS1抑制剂",
+    "relation": "作用机制",
+    "tail": "阻断SOS1可抑制KRAS激活",
+    "source": "分子靶向研究",
+    "evidence": "SOS1抑制剂正在早期临床中",
+    "domain": "biomarkers",
+    "confidence": 0.7,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌GEF抑制剂",
+    "relation": "代表药物",
+    "tail": "GEF抑制剂正在开发中",
+    "source": "分子靶向研究",
+    "evidence": "GEF是KRAS上游激活因子",
+    "domain": "biomarkers",
+    "confidence": 0.68,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌SHP2抑制剂",
+    "relation": "代表药物",
+    "tail": "SHP504等，正在I/II期临床",
+    "source": "分子靶向研究/临床试验",
+    "evidence": "SHP2抑制剂正在与KRAS抑制剂联合探索",
+    "domain": "biomarkers",
+    "confidence": 0.75,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌NF2缺失",
+    "relation": "在胰腺癌中",
+    "tail": "约5-10%胰腺癌存在NF2突变/缺失",
+    "source": "分子病理研究",
+    "evidence": "NF2缺失与耐药相关",
+    "domain": "biomarkers",
+    "confidence": 0.72,
+    "pmid": null
+  }
+]
