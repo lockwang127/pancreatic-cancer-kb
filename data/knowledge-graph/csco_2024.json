@@ -4,7 +4,7 @@
       "head": "可切除胰腺癌",
       "relation": "首选治疗",
       "tail": "手术+辅助化疗",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "根治性切除后推荐辅助治疗",
       "domain": "治疗",
       "confidence": 0.98
@@ -13,7 +13,7 @@
       "head": "可切除胰腺癌辅助化疗方案",
       "relation": "推荐方案",
       "tail": "吉西他滨或替吉奥单药",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "术后辅助化疗首选",
       "domain": "治疗",
       "confidence": 0.95
@@ -22,7 +22,7 @@
       "head": "吉西他滨辅助化疗",
       "relation": "方案",
       "tail": "1000mg/m² d1,8,15，每28天×6周期",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "CONKO-001研究证据",
       "domain": "治疗",
       "confidence": 0.95
@@ -31,7 +31,7 @@
       "head": "替吉奥辅助化疗",
       "relation": "方案",
       "tail": "体表面积给药，d1-28，每42天×6周期",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "JASPAC-01研究证据",
       "domain": "治疗",
       "confidence": 0.95
@@ -40,7 +40,7 @@
       "head": "边界可切除胰腺癌",
       "relation": "推荐治疗",
       "tail": "新辅助化疗后评估手术可能性",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "NCCN同样推荐新辅助治疗",
       "domain": "治疗",
       "confidence": 0.95
@@ -49,7 +49,7 @@
       "head": "边界可切除新辅助化疗",
       "relation": "推荐方案",
       "tail": "FOLFIRINOX或吉西他滨+白蛋白紫杉醇",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "2-4周期后评估",
       "domain": "治疗",
       "confidence": 0.90
@@ -58,7 +58,7 @@
       "head": "局部晚期胰腺癌",
       "relation": "推荐治疗",
       "tail": "同步放化疗或诱导化疗后放化疗",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "根据体能状态选择",
       "domain": "治疗",
       "confidence": 0.90
@@ -67,7 +67,7 @@
       "head": "晚期胰腺癌一线治疗",
       "relation": "体能好患者推荐",
       "tail": "FOLFIRINOX方案",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "PRODIGE研究证据",
       "domain": "治疗",
       "confidence": 0.95
@@ -76,7 +76,7 @@
       "head": "FOLFIRINOX方案",
       "relation": "药物组成",
       "tail": "奥沙利铂+伊立替康+氟尿嘧啶+亚叶酸钙",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "标准剂量或减量",
       "domain": "治疗",
       "confidence": 0.98
@@ -85,7 +85,7 @@
       "head": "FOLFIRINOX方案",
       "relation": "适应人群",
       "tail": "ECOG 0-1，胆红素正常，年龄<76岁",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "毒性较大需筛选患者",
       "domain": "治疗",
       "confidence": 0.95
@@ -94,7 +94,7 @@
       "head": "晚期胰腺癌一线治疗",
       "relation": "体能一般患者推荐",
       "tail": "吉西他滨+白蛋白紫杉醇",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "MPACT研究证据",
       "domain": "治疗",
       "confidence": 0.95
@@ -103,7 +103,7 @@
       "head": "吉西他滨+白蛋白紫杉醇",
       "relation": "方案",
       "tail": "吉西他滨1000mg/m² d1,8,15 + 白蛋白紫杉醇125mg/m² d1,8,15，每28天",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "每周期d1需在d1,8,15前使用",
       "domain": "治疗",
       "confidence": 0.95
@@ -112,7 +112,7 @@
       "head": "BRCA突变胰腺癌",
       "relation": "维持治疗推荐",
       "tail": "奥拉帕利",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "POLO研究证据",
       "domain": "治疗",
       "confidence": 0.95,
@@ -122,7 +122,7 @@
       "head": "奥拉帕利",
       "relation": "BRCA突变维持治疗",
       "tail": "300mg bid",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "含铂化疗获益后维持",
       "domain": "治疗",
       "confidence": 0.95
@@ -131,7 +131,7 @@
       "head": "BRCA突变胰腺癌",
       "relation": "另一维持治疗选择",
       "tail": "卢卡帕利",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "Rucaparib维持治疗",
       "domain": "治疗",
       "confidence": 0.90

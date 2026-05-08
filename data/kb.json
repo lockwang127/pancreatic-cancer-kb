@@ -1,0 +1,537 @@
+{
+  "version": "1.0.0",
+  "name": "胰腺癌知识库",
+  "description": "基于CSCO指南和相关文献的结构化胰腺癌知识图谱",
+  "built_at": "2026-05-08T11:09:29.474953",
+  "knowledge_graph": [
+    {
+      "head": "可切除胰腺癌",
+      "relation": "首选治疗",
+      "tail": "手术+辅助化疗",
+      "source": "指南",
+      "evidence": "根治性切除后推荐辅助治疗",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "可切除胰腺癌辅助化疗方案",
+      "relation": "推荐方案",
+      "tail": "吉西他滨或替吉奥单药",
+      "source": "指南",
+      "evidence": "术后辅助化疗首选",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "吉西他滨辅助化疗",
+      "relation": "方案",
+      "tail": "1000mg/m² d1,8,15，每28天×6周期",
+      "source": "指南",
+      "evidence": "CONKO-001研究证据",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "替吉奥辅助化疗",
+      "relation": "方案",
+      "tail": "体表面积给药，d1-28，每42天×6周期",
+      "source": "指南",
+      "evidence": "JASPAC-01研究证据",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "边界可切除胰腺癌",
+      "relation": "推荐治疗",
+      "tail": "新辅助化疗后评估手术可能性",
+      "source": "指南",
+      "evidence": "NCCN同样推荐新辅助治疗",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "边界可切除新辅助化疗",
+      "relation": "推荐方案",
+      "tail": "FOLFIRINOX或吉西他滨+白蛋白紫杉醇",
+      "source": "指南",
+      "evidence": "2-4周期后评估",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "局部晚期胰腺癌",
+      "relation": "推荐治疗",
+      "tail": "同步放化疗或诱导化疗后放化疗",
+      "source": "指南",
+      "evidence": "根据体能状态选择",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "晚期胰腺癌一线治疗",
+      "relation": "体能好患者推荐",
+      "tail": "FOLFIRINOX方案",
+      "source": "指南",
+      "evidence": "PRODIGE研究证据",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "FOLFIRINOX方案",
+      "relation": "药物组成",
+      "tail": "奥沙利铂+伊立替康+氟尿嘧啶+亚叶酸钙",
+      "source": "指南",
+      "evidence": "标准剂量或减量",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "FOLFIRINOX方案",
+      "relation": "适应人群",
+      "tail": "ECOG 0-1，胆红素正常，年龄<76岁",
+      "source": "指南",
+      "evidence": "毒性较大需筛选患者",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "晚期胰腺癌一线治疗",
+      "relation": "体能一般患者推荐",
+      "tail": "吉西他滨+白蛋白紫杉醇",
+      "source": "指南",
+      "evidence": "MPACT研究证据",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "吉西他滨+白蛋白紫杉醇",
+      "relation": "方案",
+      "tail": "吉西他滨1000mg/m² d1,8,15 + 白蛋白紫杉醇125mg/m² d1,8,15，每28天",
+      "source": "指南",
+      "evidence": "每周期d1需在d1,8,15前使用",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "BRCA突变胰腺癌",
+      "relation": "维持治疗推荐",
+      "tail": "奥拉帕利",
+      "source": "指南",
+      "evidence": "POLO研究证据",
+      "domain": "治疗",
+      "confidence": 0.95,
+      "pmid": "31157963"
+    },
+    {
+      "head": "奥拉帕利",
+      "relation": "BRCA突变维持治疗",
+      "tail": "300mg bid",
+      "source": "指南",
+      "evidence": "含铂化疗获益后维持",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "BRCA突变胰腺癌",
+      "relation": "另一维持治疗选择",
+      "tail": "卢卡帕利",
+      "source": "指南",
+      "evidence": "Rucaparib维持治疗",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "胰腺癌TNM分期",
+      "relation": "采用标准",
+      "tail": "AJCC第8版",
+      "source": "指南",
+      "evidence": "国际通用分期系统",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T1期",
+      "relation": "肿瘤大小",
+      "tail": "≤2cm",
+      "source": "指南",
+      "evidence": "局限于胰腺内",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T2期",
+      "relation": "肿瘤大小",
+      "tail": ">2cm但≤4cm",
+      "source": "指南",
+      "evidence": "局限于胰腺内",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T3期",
+      "relation": "肿瘤特征",
+      "tail": ">4cm或超出胰腺但未累及腹腔干/肠系膜上动脉",
+      "source": "指南",
+      "evidence": "局部进展",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T4期",
+      "relation": "肿瘤特征",
+      "tail": "累及腹腔干或肠系膜上动脉",
+      "source": "指南",
+      "evidence": "不可切除",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "可切除胰腺癌",
+      "relation": "定义",
+      "tail": "无远处转移，肿瘤未累及腹腔干/肠系膜上动脉/肝动脉",
+      "source": "指南",
+      "evidence": "NCCN/CSCO定义",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "边界可切除胰腺癌",
+      "relation": "定义",
+      "tail": "肿瘤累及胰周血管但可重建",
+      "source": "指南",
+      "evidence": "需多学科评估",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "不可切除胰腺癌",
+      "relation": "定义",
+      "tail": "远处转移或肿瘤包绕主要血管无法切除",
+      "source": "指南",
+      "evidence": "包括局部晚期",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "CA19-9",
+      "relation": "是",
+      "tail": "胰腺癌最常用血清标志物",
+      "source": "指南",
+      "evidence": "辅助诊断和疗效监测",
+      "domain": "生物标志物",
+      "confidence": 0.95
+    },
+    {
+      "head": "CA19-9",
+      "relation": "局限性",
+      "tail": "胆道梗阻时升高，特异性受限",
+      "source": "文献",
+      "evidence": "需排除胆道梗阻因素",
+      "domain": "生物标志物",
+      "confidence": 0.9,
+      "pmid": "32530488"
+    },
+    {
+      "head": "CEA",
+      "relation": "是",
+      "tail": "胰腺癌辅助诊断标志物",
+      "source": "专家共识",
+      "evidence": "特异性不高，联合CA19-9使用",
+      "domain": "生物标志物",
+      "confidence": 0.8
+    },
+    {
+      "head": "CA125",
+      "relation": "是",
+      "tail": "胰腺癌肝转移/腹膜转移监测标志物",
+      "source": "文献",
+      "evidence": "联合CA19-9提高敏感性",
+      "domain": "生物标志物",
+      "confidence": 0.8
+    },
+    {
+      "head": "影像学评估首选",
+      "relation": "方法",
+      "tail": "增强CT（三期扫描）",
+      "source": "指南",
+      "evidence": "评估分期和可切除性",
+      "domain": "诊断",
+      "confidence": 0.98
+    },
+    {
+      "head": "EUS",
+      "relation": "用于",
+      "tail": "早期病变发现和细针穿刺活检",
+      "source": "指南",
+      "evidence": "敏感性高于CT",
+      "domain": "诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "MRI/MRCP",
+      "relation": "用于",
+      "tail": "胆道梗阻评估和囊性病变鉴别",
+      "source": "指南",
+      "evidence": "与CT互补",
+      "domain": "诊断",
+      "confidence": 0.9
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "2022年中国新发病例数",
+      "tail": "11.87万",
+      "source": "文献",
+      "evidence": "GLOBOCAN 2022统计数据",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "2022年中国死亡人数",
+      "tail": "约12万",
+      "source": "文献",
+      "evidence": "GLOBOCAN 2022统计数据",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "病死比",
+      "tail": ">100%",
+      "source": "文献",
+      "evidence": "新发病例数略少于死亡病例数，反映预后极差",
+      "domain": "流行病学",
+      "confidence": 0.9
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "5年生存率",
+      "tail": "约12%",
+      "source": "文献",
+      "evidence": "全球常见恶性肿瘤中最低之一",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "早期诊断困难原因",
+      "tail": "位置隐匿、症状非特异、缺乏有效筛查手段",
+      "source": "专家共识",
+      "evidence": "多数患者确诊时已为晚期",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "吸烟",
+      "relation": "是胰腺癌危险因素",
+      "tail": "可增加发病风险2-3倍",
+      "source": "文献",
+      "evidence": "多项流行病学研究证实",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "pmid": "35104656"
+    },
+    {
+      "head": "慢性胰腺炎",
+      "relation": "是胰腺癌危险因素",
+      "tail": "长期炎症增加癌变风险",
+      "source": "文献",
+      "evidence": "遗传性和酒精性慢性胰腺炎风险最高",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "pmid": "33004164"
+    },
+    {
+      "head": "糖尿病",
+      "relation": "是胰腺癌危险因素",
+      "tail": "新发糖尿病可能是早期症状",
+      "source": "文献",
+      "evidence": "50岁以上新发糖尿病需警惕胰腺癌",
+      "domain": "流行病学",
+      "confidence": 0.85,
+      "pmid": "31738487"
+    },
+    {
+      "head": "BRCA突变",
+      "relation": "是胰腺癌遗传危险因素",
+      "tail": "BRCA1/2突变携带者风险增加2-6倍",
+      "source": "文献",
+      "evidence": "家族性胰腺癌重要病因",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "pmid": "29449571"
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "病理类型占比",
+      "tail": "导管腺癌占90%以上",
+      "source": "专家共识",
+      "evidence": "最常见组织学类型",
+      "domain": "流行病学",
+      "confidence": 0.98
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "发病高峰年龄",
+      "tail": "60-80岁",
+      "source": "文献",
+      "evidence": "中位诊断年龄约70岁",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "性别分布",
+      "tail": "男性略多于女性",
+      "source": "文献",
+      "evidence": "男女比例约1.2:1",
+      "domain": "流行病学",
+      "confidence": 0.9
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "好发部位",
+      "tail": "胰头60-70%",
+      "source": "专家共识",
+      "evidence": "胰头癌常致胆道梗阻",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰头癌手术",
+      "relation": "标准术式",
+      "tail": "胰十二指肠切除术（Whipple术）",
+      "source": "专家共识",
+      "evidence": "包括十二指肠、胆囊、胆总管、胰头切除",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "胰体尾癌手术",
+      "relation": "标准术式",
+      "tail": "胰体尾切除术+脾切除",
+      "source": "专家共识",
+      "evidence": "包括左侧胰腺、脾脏、周围淋巴结",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "联合血管切除",
+      "relation": "适应症",
+      "tail": "门静脉/肠系膜上静脉受累但可切除重建",
+      "source": "指南",
+      "evidence": "需评估可切除性",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "Whipple术后消化道重建",
+      "relation": "方式",
+      "tail": "胰肠吻合+胆肠吻合+胃肠吻合",
+      "source": "专家共识",
+      "evidence": "Child术式最常用",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰瘘",
+      "relation": "是Whipple术后主要并发症",
+      "tail": "发生率约10-20%",
+      "source": "文献",
+      "evidence": "分级A/B/C级",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "新辅助治疗",
+      "relation": "目的",
+      "tail": "缩小肿瘤、提高R0切除率、筛选生物学行为",
+      "source": "指南",
+      "evidence": "边界可切除首选",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "新辅助治疗周期",
+      "relation": "推荐",
+      "tail": "2-4周期后重新评估",
+      "source": "指南",
+      "evidence": "根据疗效调整",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "辅助化疗开始时间",
+      "relation": "推荐",
+      "tail": "术后4-8周，伤口愈合后",
+      "source": "指南",
+      "evidence": "体能恢复后尽早开始",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "辅助化疗疗程",
+      "relation": "推荐",
+      "tail": "6个月（吉西他滨或替吉奥）",
+      "source": "指南",
+      "evidence": "CONKO-001和JASPAC-01研究",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "mFOLFIRINOX方案",
+      "relation": "定义",
+      "tail": "减量FOLFIRINOX（奥沙利铂85+伊立替康150+5-FU 2400)",
+      "source": "文献",
+      "evidence": "提高耐受性",
+      "domain": "治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "白蛋白紫杉醇",
+      "relation": "机制",
+      "tail": "通过SPARC蛋白增强肿瘤内药物浓度",
+      "source": "文献",
+      "evidence": "肿瘤微环境改善",
+      "domain": "治疗",
+      "confidence": 0.85,
+      "pmid": "24520095"
+    },
+    {
+      "head": "同步放化疗",
+      "relation": "适应症",
+      "tail": "局部晚期胰腺癌，不可切除但无转移",
+      "source": "指南",
+      "evidence": "LAP-07研究证据",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "SBRT",
+      "relation": "用于",
+      "tail": "局部晚期胰腺癌或寡转移灶",
+      "source": "指南",
+      "evidence": "大分割放疗",
+      "domain": "治疗",
+      "confidence": 0.8
+    },
+    {
+      "head": "二线治疗",
+      "relation": "推荐方案",
+      "tail": "伊立替康脂质体+5-FU/亚叶酸",
+      "source": "指南",
+      "evidence": "NAPOLI-1研究证据",
+      "domain": "治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "靶向治疗",
+      "relation": "BRCA突变",
+      "tail": "PARP抑制剂（奥拉帕利/卢卡帕利）",
+      "source": "指南",
+      "evidence": "维持治疗适应症",
+      "domain": "治疗",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -58,7 +58,7 @@
       "head": "新辅助治疗周期",
       "relation": "推荐",
       "tail": "2-4周期后重新评估",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "根据疗效调整",
       "domain": "治疗",
       "confidence": 0.90
@@ -76,7 +76,7 @@
       "head": "辅助化疗疗程",
       "relation": "推荐",
       "tail": "6个月（吉西他滨或替吉奥）",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "CONKO-001和JASPAC-01研究",
       "domain": "治疗",
       "confidence": 0.95
@@ -122,7 +122,7 @@
       "head": "二线治疗",
       "relation": "推荐方案",
       "tail": "伊立替康脂质体+5-FU/亚叶酸",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "NAPOLI-1研究证据",
       "domain": "治疗",
       "confidence": 0.90
@@ -131,7 +131,7 @@
       "head": "靶向治疗",
       "relation": "BRCA突变",
       "tail": "PARP抑制剂（奥拉帕利/卢卡帕利）",
-      "source": "CSCO指南2024",
+      "source": "指南",
       "evidence": "维持治疗适应症",
       "domain": "治疗",
       "confidence": 0.95
