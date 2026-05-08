@@ -1,43 +1,25 @@
 {
-  "name": "pancreatic-cancer-kb",
-  "version": "1.0.0",
-  "build_time": "2026-05-08T12:51:37.920183",
-  "total_triplets": 361,
-  "domains": {
-    "biomarkers": 103,
-    "csco_2024": 62,
-    "epidemiology": 50,
-    "treatment": 146
-  },
-  "source_files": [
-    "biomarkers.json",
-    "csco_2024.json",
-    "epidemiology.json",
-    "literature_batch_2024_2025_updates.json",
-    "literature_batch_clinical_trials.json",
-    "literature_batch_csco_2024.json",
-    "literature_batch_molecular.json",
-    "literature_batch_nccn_esmo.json",
-    "literature_batch_new_targets.json",
-    "literature_batch_rwe.json",
-    "treatment.json"
-  ],
-  "triplets_per_file": {
+  "version": "1.1.0",
+  "update_date": "2026-05-08",
+  "total_triplets": 345,
+  "duplicates_removed": 0,
+  "source_files": {
     "biomarkers.json": 13,
     "csco_2024.json": 12,
     "epidemiology.json": 12,
     "literature_batch_2024_2025_updates.json": 65,
     "literature_batch_clinical_trials.json": 50,
-    "literature_batch_csco_2024.json": 50,
+    "literature_batch_csco_2024.json": 49,
     "literature_batch_molecular.json": 38,
-    "literature_batch_nccn_esmo.json": 45,
-    "literature_batch_new_targets.json": 25,
-    "literature_batch_rwe.json": 38,
+    "literature_batch_nccn_esmo.json": 35,
+    "literature_batch_new_targets.json": 24,
+    "literature_batch_rwe.json": 34,
     "treatment.json": 13
   },
-  "confidence_distribution": {
-    "high (>=0.9)": 190,
-    "medium (0.7-0.89)": 156,
-    "low (<0.7)": 15
+  "domains": {
+    "biomarkers": 93,
+    "csco_2024": 61,
+    "epidemiology": 46,
+    "treatment": 145
   }
 }
