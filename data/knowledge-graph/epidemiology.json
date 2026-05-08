@@ -1,0 +1,125 @@
+{
+  "knowledge_triplets": [
+    {
+      "head": "胰腺癌",
+      "relation": "2022年中国新发病例数",
+      "tail": "11.87万",
+      "source": "文献",
+      "evidence": "GLOBOCAN 2022统计数据",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "2022年中国死亡人数",
+      "tail": "约12万",
+      "source": "文献",
+      "evidence": "GLOBOCAN 2022统计数据",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "病死比",
+      "tail": ">100%",
+      "source": "文献",
+      "evidence": "新发病例数略少于死亡病例数，反映预后极差",
+      "domain": "流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "5年生存率",
+      "tail": "约12%",
+      "source": "文献",
+      "evidence": "全球常见恶性肿瘤中最低之一",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "早期诊断困难原因",
+      "tail": "位置隐匿、症状非特异、缺乏有效筛查手段",
+      "source": "专家共识",
+      "evidence": "多数患者确诊时已为晚期",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "吸烟",
+      "relation": "是胰腺癌危险因素",
+      "tail": "可增加发病风险2-3倍",
+      "source": "文献",
+      "evidence": "多项流行病学研究证实",
+      "domain": "流行病学",
+      "confidence": 0.90,
+      "pmid": "35104656"
+    },
+    {
+      "head": "慢性胰腺炎",
+      "relation": "是胰腺癌危险因素",
+      "tail": "长期炎症增加癌变风险",
+      "source": "文献",
+      "evidence": "遗传性和酒精性慢性胰腺炎风险最高",
+      "domain": "流行病学",
+      "confidence": 0.90,
+      "pmid": "33004164"
+    },
+    {
+      "head": "糖尿病",
+      "relation": "是胰腺癌危险因素",
+      "tail": "新发糖尿病可能是早期症状",
+      "source": "文献",
+      "evidence": "50岁以上新发糖尿病需警惕胰腺癌",
+      "domain": "流行病学",
+      "confidence": 0.85,
+      "pmid": "31738487"
+    },
+    {
+      "head": "BRCA突变",
+      "relation": "是胰腺癌遗传危险因素",
+      "tail": "BRCA1/2突变携带者风险增加2-6倍",
+      "source": "文献",
+      "evidence": "家族性胰腺癌重要病因",
+      "domain": "流行病学",
+      "confidence": 0.90,
+      "pmid": "29449571"
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "病理类型占比",
+      "tail": "导管腺癌占90%以上",
+      "source": "专家共识",
+      "evidence": "最常见组织学类型",
+      "domain": "流行病学",
+      "confidence": 0.98
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "发病高峰年龄",
+      "tail": "60-80岁",
+      "source": "文献",
+      "evidence": "中位诊断年龄约70岁",
+      "domain": "流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "性别分布",
+      "tail": "男性略多于女性",
+      "source": "文献",
+      "evidence": "男女比例约1.2:1",
+      "domain": "流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "好发部位",
+      "tail": "胰头60-70%",
+      "source": "专家共识",
+      "evidence": "胰头癌常致胆道梗阻",
+      "domain": "流行病学",
+      "confidence": 0.95
+    }
+  ]
+}

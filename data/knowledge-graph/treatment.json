@@ -1,0 +1,140 @@
+{
+  "knowledge_triplets": [
+    {
+      "head": "胰头癌手术",
+      "relation": "标准术式",
+      "tail": "胰十二指肠切除术（Whipple术）",
+      "source": "专家共识",
+      "evidence": "包括十二指肠、胆囊、胆总管、胰头切除",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "胰体尾癌手术",
+      "relation": "标准术式",
+      "tail": "胰体尾切除术+脾切除",
+      "source": "专家共识",
+      "evidence": "包括左侧胰腺、脾脏、周围淋巴结",
+      "domain": "治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "联合血管切除",
+      "relation": "适应症",
+      "tail": "门静脉/肠系膜上静脉受累但可切除重建",
+      "source": "指南",
+      "evidence": "需评估可切除性",
+      "domain": "治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "Whipple术后消化道重建",
+      "relation": "方式",
+      "tail": "胰肠吻合+胆肠吻合+胃肠吻合",
+      "source": "专家共识",
+      "evidence": "Child术式最常用",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "胰瘘",
+      "relation": "是Whipple术后主要并发症",
+      "tail": "发生率约10-20%",
+      "source": "文献",
+      "evidence": "分级A/B/C级",
+      "domain": "治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "新辅助治疗",
+      "relation": "目的",
+      "tail": "缩小肿瘤、提高R0切除率、筛选生物学行为",
+      "source": "指南",
+      "evidence": "边界可切除首选",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "新辅助治疗周期",
+      "relation": "推荐",
+      "tail": "2-4周期后重新评估",
+      "source": "CSCO指南2024",
+      "evidence": "根据疗效调整",
+      "domain": "治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "辅助化疗开始时间",
+      "relation": "推荐",
+      "tail": "术后4-8周，伤口愈合后",
+      "source": "指南",
+      "evidence": "体能恢复后尽早开始",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "辅助化疗疗程",
+      "relation": "推荐",
+      "tail": "6个月（吉西他滨或替吉奥）",
+      "source": "CSCO指南2024",
+      "evidence": "CONKO-001和JASPAC-01研究",
+      "domain": "治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "mFOLFIRINOX方案",
+      "relation": "定义",
+      "tail": "减量FOLFIRINOX（奥沙利铂85+伊立替康150+5-FU 2400)",
+      "source": "文献",
+      "evidence": "提高耐受性",
+      "domain": "治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "白蛋白紫杉醇",
+      "relation": "机制",
+      "tail": "通过SPARC蛋白增强肿瘤内药物浓度",
+      "source": "文献",
+      "evidence": "肿瘤微环境改善",
+      "domain": "治疗",
+      "confidence": 0.85,
+      "pmid": "24520095"
+    },
+    {
+      "head": "同步放化疗",
+      "relation": "适应症",
+      "tail": "局部晚期胰腺癌，不可切除但无转移",
+      "source": "指南",
+      "evidence": "LAP-07研究证据",
+      "domain": "治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "SBRT",
+      "relation": "用于",
+      "tail": "局部晚期胰腺癌或寡转移灶",
+      "source": "指南",
+      "evidence": "大分割放疗",
+      "domain": "治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "二线治疗",
+      "relation": "推荐方案",
+      "tail": "伊立替康脂质体+5-FU/亚叶酸",
+      "source": "CSCO指南2024",
+      "evidence": "NAPOLI-1研究证据",
+      "domain": "治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "靶向治疗",
+      "relation": "BRCA突变",
+      "tail": "PARP抑制剂（奥拉帕利/卢卡帕利）",
+      "source": "CSCO指南2024",
+      "evidence": "维持治疗适应症",
+      "domain": "治疗",
+      "confidence": 0.95
+    }
+  ]
+}

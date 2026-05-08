@@ -1,0 +1,140 @@
+{
+  "knowledge_triplets": [
+    {
+      "head": "胰腺癌TNM分期",
+      "relation": "采用标准",
+      "tail": "AJCC第8版",
+      "source": "指南",
+      "evidence": "国际通用分期系统",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T1期",
+      "relation": "肿瘤大小",
+      "tail": "≤2cm",
+      "source": "指南",
+      "evidence": "局限于胰腺内",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T2期",
+      "relation": "肿瘤大小",
+      "tail": ">2cm但≤4cm",
+      "source": "指南",
+      "evidence": "局限于胰腺内",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T3期",
+      "relation": "肿瘤特征",
+      "tail": ">4cm或超出胰腺但未累及腹腔干/肠系膜上动脉",
+      "source": "指南",
+      "evidence": "局部进展",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "T4期",
+      "relation": "肿瘤特征",
+      "tail": "累及腹腔干或肠系膜上动脉",
+      "source": "指南",
+      "evidence": "不可切除",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "可切除胰腺癌",
+      "relation": "定义",
+      "tail": "无远处转移，肿瘤未累及腹腔干/肠系膜上动脉/肝动脉",
+      "source": "指南",
+      "evidence": "NCCN/CSCO定义",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "边界可切除胰腺癌",
+      "relation": "定义",
+      "tail": "肿瘤累及胰周血管但可重建",
+      "source": "指南",
+      "evidence": "需多学科评估",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "不可切除胰腺癌",
+      "relation": "定义",
+      "tail": "远处转移或肿瘤包绕主要血管无法切除",
+      "source": "指南",
+      "evidence": "包括局部晚期",
+      "domain": "分期",
+      "confidence": 0.98
+    },
+    {
+      "head": "CA19-9",
+      "relation": "是",
+      "tail": "胰腺癌最常用血清标志物",
+      "source": "指南",
+      "evidence": "辅助诊断和疗效监测",
+      "domain": "生物标志物",
+      "confidence": 0.95
+    },
+    {
+      "head": "CA19-9",
+      "relation": "局限性",
+      "tail": "胆道梗阻时升高，特异性受限",
+      "source": "文献",
+      "evidence": "需排除胆道梗阻因素",
+      "domain": "生物标志物",
+      "confidence": 0.90,
+      "pmid": "32530488"
+    },
+    {
+      "head": "CEA",
+      "relation": "是",
+      "tail": "胰腺癌辅助诊断标志物",
+      "source": "专家共识",
+      "evidence": "特异性不高，联合CA19-9使用",
+      "domain": "生物标志物",
+      "confidence": 0.80
+    },
+    {
+      "head": "CA125",
+      "relation": "是",
+      "tail": "胰腺癌肝转移/腹膜转移监测标志物",
+      "source": "文献",
+      "evidence": "联合CA19-9提高敏感性",
+      "domain": "生物标志物",
+      "confidence": 0.80
+    },
+    {
+      "head": "影像学评估首选",
+      "relation": "方法",
+      "tail": "增强CT（三期扫描）",
+      "source": "指南",
+      "evidence": "评估分期和可切除性",
+      "domain": "诊断",
+      "confidence": 0.98
+    },
+    {
+      "head": "EUS",
+      "relation": "用于",
+      "tail": "早期病变发现和细针穿刺活检",
+      "source": "指南",
+      "evidence": "敏感性高于CT",
+      "domain": "诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "MRI/MRCP",
+      "relation": "用于",
+      "tail": "胆道梗阻评估和囊性病变鉴别",
+      "source": "指南",
+      "evidence": "与CT互补",
+      "domain": "诊断",
+      "confidence": 0.90
+    }
+  ]
+}
