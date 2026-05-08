@@ -1,537 +1,523 @@
 {
-  "version": "1.0.0",
-  "name": "胰腺癌知识库",
-  "description": "基于CSCO指南和相关文献的结构化胰腺癌知识图谱",
-  "built_at": "2026-05-08T11:09:29.474953",
-  "knowledge_graph": [
+  "meta": {
+    "name": "pancreatic-cancer-kb",
+    "description": "胰腺癌结构化知识库",
+    "version": "1.0.0",
+    "build_time": "2026-05-08T11:28:56.197734",
+    "total_triplets": 50,
+    "domains": [
+      "biomarkers",
+      "csco_2024",
+      "epidemiology",
+      "treatment"
+    ],
+    "domain_counts": {
+      "biomarkers": 13,
+      "csco_2024": 12,
+      "epidemiology": 12,
+      "treatment": 13
+    }
+  },
+  "triplets": [
     {
-      "head": "可切除胰腺癌",
-      "relation": "首选治疗",
-      "tail": "手术+辅助化疗",
-      "source": "指南",
-      "evidence": "根治性切除后推荐辅助治疗",
-      "domain": "治疗",
-      "confidence": 0.98
+      "head": "胰腺癌",
+      "relation": "分期系统",
+      "tail": "AJCC第8版TNM分期",
+      "source": "AJCC Cancer Staging Manual, 8th Edition (2017)",
+      "evidence": "胰腺癌采用AJCC第8版TNM分期系统，根据原发肿瘤范围（T）、区域淋巴结（N）、远处转移（M）进行分期，是指导治疗选择和预后判断的核心依据",
+      "domain": "biomarkers",
+      "confidence": 0.99,
+      "pmid": null
     },
     {
-      "head": "可切除胰腺癌辅助化疗方案",
-      "relation": "推荐方案",
-      "tail": "吉西他滨或替吉奥单药",
-      "source": "指南",
-      "evidence": "术后辅助化疗首选",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌T1期",
+      "relation": "定义",
+      "tail": "肿瘤最大径≤2cm，局限于胰腺内",
+      "source": "AJCC第8版TNM分期",
+      "evidence": "T1期：肿瘤最大径≤2cm，局限于胰腺内；T1a≤0.5cm，T1b 0.5-1.0cm，T1c 1.0-2.0cm",
+      "domain": "biomarkers",
+      "confidence": 0.99,
+      "pmid": null
     },
     {
-      "head": "吉西他滨辅助化疗",
-      "relation": "方案",
-      "tail": "1000mg/m² d1,8,15，每28天×6周期",
-      "source": "指南",
-      "evidence": "CONKO-001研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌T2期",
+      "relation": "定义",
+      "tail": "肿瘤最大径>2cm且≤4cm，局限于胰腺内",
+      "source": "AJCC第8版TNM分期",
+      "evidence": "T2期：肿瘤最大径>2cm且≤4cm，局限于胰腺内",
+      "domain": "biomarkers",
+      "confidence": 0.99,
+      "pmid": null
     },
     {
-      "head": "替吉奥辅助化疗",
-      "relation": "方案",
-      "tail": "体表面积给药，d1-28，每42天×6周期",
-      "source": "指南",
-      "evidence": "JASPAC-01研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌T3期",
+      "relation": "定义",
+      "tail": "肿瘤最大径>4cm，和/或超出胰腺范围但未侵犯腹腔干或肠系膜上动脉",
+      "source": "AJCC第8版TNM分期",
+      "evidence": "T3期：肿瘤最大径>4cm，或肿瘤超出胰腺范围但无腹腔干或肠系膜上动脉（SMA）受累",
+      "domain": "biomarkers",
+      "confidence": 0.99,
+      "pmid": null
     },
     {
-      "head": "边界可切除胰腺癌",
-      "relation": "推荐治疗",
-      "tail": "新辅助化疗后评估手术可能性",
-      "source": "指南",
-      "evidence": "NCCN同样推荐新辅助治疗",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌T4期",
+      "relation": "定义",
+      "tail": "肿瘤侵犯腹腔干或肠系膜上动脉（不可切除）",
+      "source": "AJCC第8版TNM分期",
+      "evidence": "T4期：肿瘤直接侵犯腹腔干或肠系膜上动脉（SMA），属于生物学不可切除（需新辅助治疗后重新评估）",
+      "domain": "biomarkers",
+      "confidence": 0.99,
+      "pmid": null
     },
     {
-      "head": "边界可切除新辅助化疗",
-      "relation": "推荐方案",
-      "tail": "FOLFIRINOX或吉西他滨+白蛋白紫杉醇",
-      "source": "指南",
-      "evidence": "2-4周期后评估",
-      "domain": "治疗",
-      "confidence": 0.9
-    },
-    {
-      "head": "局部晚期胰腺癌",
-      "relation": "推荐治疗",
-      "tail": "同步放化疗或诱导化疗后放化疗",
-      "source": "指南",
-      "evidence": "根据体能状态选择",
-      "domain": "治疗",
-      "confidence": 0.9
-    },
-    {
-      "head": "晚期胰腺癌一线治疗",
-      "relation": "体能好患者推荐",
-      "tail": "FOLFIRINOX方案",
-      "source": "指南",
-      "evidence": "PRODIGE研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "FOLFIRINOX方案",
-      "relation": "药物组成",
-      "tail": "奥沙利铂+伊立替康+氟尿嘧啶+亚叶酸钙",
-      "source": "指南",
-      "evidence": "标准剂量或减量",
-      "domain": "治疗",
-      "confidence": 0.98
-    },
-    {
-      "head": "FOLFIRINOX方案",
-      "relation": "适应人群",
-      "tail": "ECOG 0-1，胆红素正常，年龄<76岁",
-      "source": "指南",
-      "evidence": "毒性较大需筛选患者",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "晚期胰腺癌一线治疗",
-      "relation": "体能一般患者推荐",
-      "tail": "吉西他滨+白蛋白紫杉醇",
-      "source": "指南",
-      "evidence": "MPACT研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "吉西他滨+白蛋白紫杉醇",
-      "relation": "方案",
-      "tail": "吉西他滨1000mg/m² d1,8,15 + 白蛋白紫杉醇125mg/m² d1,8,15，每28天",
-      "source": "指南",
-      "evidence": "每周期d1需在d1,8,15前使用",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "BRCA突变胰腺癌",
-      "relation": "维持治疗推荐",
-      "tail": "奥拉帕利",
-      "source": "指南",
-      "evidence": "POLO研究证据",
-      "domain": "治疗",
+      "head": "胰腺癌手术切除性分类",
+      "relation": "分类标准",
+      "tail": "可切除、临界可切除（BRPC）、局部晚期不可切除、转移性",
+      "source": "NCCN胰腺癌指南及CSCO 2024胰腺癌诊疗指南",
+      "evidence": "基于CT/MRI影像学评估，将胰腺癌分为：可切除（R-PANC）、临界可切除（BRPC）、局部晚期不可切除（LA-PANC）、转移性（M1）四类，分别采用不同治疗策略",
+      "domain": "biomarkers",
       "confidence": 0.95,
-      "pmid": "31157963"
+      "pmid": null
     },
     {
-      "head": "奥拉帕利",
-      "relation": "BRCA突变维持治疗",
-      "tail": "300mg bid",
-      "source": "指南",
-      "evidence": "含铂化疗获益后维持",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "KRAS突变",
+      "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+      "tail": ">90%",
+      "source": "TCGA胰腺癌基因组学研究及NCCN指南",
+      "evidence": "KRAS突变是PDAC最早期的驱动事件，超过90%的PDAC存在KRAS激活突变（最常见为G12D、G12V、G12R），是PDAC发生发展的核心分子事件",
+      "domain": "biomarkers",
+      "confidence": 0.95,
+      "pmid": "25033468"
     },
     {
-      "head": "BRCA突变胰腺癌",
-      "relation": "另一维持治疗选择",
-      "tail": "卢卡帕利",
-      "source": "指南",
-      "evidence": "Rucaparib维持治疗",
-      "domain": "治疗",
-      "confidence": 0.9
-    },
-    {
-      "head": "胰腺癌TNM分期",
-      "relation": "采用标准",
-      "tail": "AJCC第8版",
-      "source": "指南",
-      "evidence": "国际通用分期系统",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T1期",
-      "relation": "肿瘤大小",
-      "tail": "≤2cm",
-      "source": "指南",
-      "evidence": "局限于胰腺内",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T2期",
-      "relation": "肿瘤大小",
-      "tail": ">2cm但≤4cm",
-      "source": "指南",
-      "evidence": "局限于胰腺内",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T3期",
-      "relation": "肿瘤特征",
-      "tail": ">4cm或超出胰腺但未累及腹腔干/肠系膜上动脉",
-      "source": "指南",
-      "evidence": "局部进展",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T4期",
-      "relation": "肿瘤特征",
-      "tail": "累及腹腔干或肠系膜上动脉",
-      "source": "指南",
-      "evidence": "不可切除",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "可切除胰腺癌",
-      "relation": "定义",
-      "tail": "无远处转移，肿瘤未累及腹腔干/肠系膜上动脉/肝动脉",
-      "source": "指南",
-      "evidence": "NCCN/CSCO定义",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "边界可切除胰腺癌",
-      "relation": "定义",
-      "tail": "肿瘤累及胰周血管但可重建",
-      "source": "指南",
-      "evidence": "需多学科评估",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "不可切除胰腺癌",
-      "relation": "定义",
-      "tail": "远处转移或肿瘤包绕主要血管无法切除",
-      "source": "指南",
-      "evidence": "包括局部晚期",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "CA19-9",
-      "relation": "是",
-      "tail": "胰腺癌最常用血清标志物",
-      "source": "指南",
-      "evidence": "辅助诊断和疗效监测",
-      "domain": "生物标志物",
-      "confidence": 0.95
-    },
-    {
-      "head": "CA19-9",
-      "relation": "局限性",
-      "tail": "胆道梗阻时升高，特异性受限",
-      "source": "文献",
-      "evidence": "需排除胆道梗阻因素",
-      "domain": "生物标志物",
+      "head": "TP53突变",
+      "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+      "tail": "50-75%",
+      "source": "TCGA胰腺癌基因组学研究",
+      "evidence": "TP53突变是PDAC第二常见的分子改变，约50-75%的PDAC存在TP53失活突变，与不良预后相关",
+      "domain": "biomarkers",
       "confidence": 0.9,
-      "pmid": "32530488"
+      "pmid": "25033468"
+    },
+    {
+      "head": "SMAD4/DPC4失活",
+      "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+      "tail": "约30-55%",
+      "source": "TCGA胰腺癌基因组学研究",
+      "evidence": "SMAD4（DPC4）是TGF-β信号通路的关键分子，约30-55%的PDAC存在SMAD4失活，与预后不良和对化疗耐药相关",
+      "domain": "biomarkers",
+      "confidence": 0.9,
+      "pmid": "25033468"
+    },
+    {
+      "head": "BRCA1/BRCA2胚系突变",
+      "relation": "在胰腺癌患者中的检出率",
+      "tail": "约4-7%（胚系），体细胞突变约2%",
+      "source": "NCCN胰腺癌基因检测共识",
+      "evidence": "约4-7%的胰腺癌患者存在BRCA1/2胚系突变，这类患者对铂类化疗和PARP抑制剂敏感，所有转移性胰腺癌患者应行胚系基因检测",
+      "domain": "biomarkers",
+      "confidence": 0.95,
+      "pmid": "31712542"
+    },
+    {
+      "head": "CA19-9",
+      "relation": "在胰腺癌中的临床应用",
+      "tail": "最常用的血清肿瘤标志物，用于诊断、疗效监测和预后评估",
+      "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+      "evidence": "CA19-9是胰腺癌最常用的血清标志物，敏感性和特异性约80%。局限性：约5-10%的人群为Lewis抗原阴性（不能合成CA19-9）；胆道梗阻和肝胆疾病也可导致CA19-9升高。术后CA19-9持续升高提示残留/复发",
+      "domain": "biomarkers",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
       "head": "CEA",
-      "relation": "是",
-      "tail": "胰腺癌辅助诊断标志物",
-      "source": "专家共识",
-      "evidence": "特异性不高，联合CA19-9使用",
-      "domain": "生物标志物",
-      "confidence": 0.8
-    },
-    {
-      "head": "CA125",
-      "relation": "是",
-      "tail": "胰腺癌肝转移/腹膜转移监测标志物",
-      "source": "文献",
-      "evidence": "联合CA19-9提高敏感性",
-      "domain": "生物标志物",
-      "confidence": 0.8
-    },
-    {
-      "head": "影像学评估首选",
-      "relation": "方法",
-      "tail": "增强CT（三期扫描）",
-      "source": "指南",
-      "evidence": "评估分期和可切除性",
-      "domain": "诊断",
-      "confidence": 0.98
-    },
-    {
-      "head": "EUS",
-      "relation": "用于",
-      "tail": "早期病变发现和细针穿刺活检",
-      "source": "指南",
-      "evidence": "敏感性高于CT",
-      "domain": "诊断",
-      "confidence": 0.95
-    },
-    {
-      "head": "MRI/MRCP",
-      "relation": "用于",
-      "tail": "胆道梗阻评估和囊性病变鉴别",
-      "source": "指南",
-      "evidence": "与CT互补",
-      "domain": "诊断",
-      "confidence": 0.9
-    },
-    {
-      "head": "胰腺癌",
-      "relation": "2022年中国新发病例数",
-      "tail": "11.87万",
-      "source": "文献",
-      "evidence": "GLOBOCAN 2022统计数据",
-      "domain": "流行病学",
-      "confidence": 0.95
-    },
-    {
-      "head": "胰腺癌",
-      "relation": "2022年中国死亡人数",
-      "tail": "约12万",
-      "source": "文献",
-      "evidence": "GLOBOCAN 2022统计数据",
-      "domain": "流行病学",
-      "confidence": 0.95
-    },
-    {
-      "head": "胰腺癌",
-      "relation": "病死比",
-      "tail": ">100%",
-      "source": "文献",
-      "evidence": "新发病例数略少于死亡病例数，反映预后极差",
-      "domain": "流行病学",
-      "confidence": 0.9
-    },
-    {
-      "head": "胰腺癌",
-      "relation": "5年生存率",
-      "tail": "约12%",
-      "source": "文献",
-      "evidence": "全球常见恶性肿瘤中最低之一",
-      "domain": "流行病学",
-      "confidence": 0.95
-    },
-    {
-      "head": "胰腺癌",
-      "relation": "早期诊断困难原因",
-      "tail": "位置隐匿、症状非特异、缺乏有效筛查手段",
-      "source": "专家共识",
-      "evidence": "多数患者确诊时已为晚期",
-      "domain": "流行病学",
-      "confidence": 0.95
-    },
-    {
-      "head": "吸烟",
-      "relation": "是胰腺癌危险因素",
-      "tail": "可增加发病风险2-3倍",
-      "source": "文献",
-      "evidence": "多项流行病学研究证实",
-      "domain": "流行病学",
+      "relation": "在胰腺癌中的临床意义",
+      "tail": "辅助CA19-9用于诊断和随访，特异性较高但敏感性较低",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "CEA可作为CA19-9的补充标志物，尤其在CA19-9不高或Lewis阴性患者中。CEA升高也可见于其他消化道肿瘤和吸烟者",
+      "domain": "biomarkers",
       "confidence": 0.9,
-      "pmid": "35104656"
+      "pmid": null
     },
     {
-      "head": "慢性胰腺炎",
-      "relation": "是胰腺癌危险因素",
-      "tail": "长期炎症增加癌变风险",
-      "source": "文献",
-      "evidence": "遗传性和酒精性慢性胰腺炎风险最高",
-      "domain": "流行病学",
+      "head": "胰腺癌基因检测",
+      "relation": "CSCO 2024推荐检测范围",
+      "tail": "胚系：BRCA1/2、PALB2、ATM、CDKN2A、MLH1、MSH2等；体细胞：KRAS、TP53、SMAD4、TMB、MSI、NTRK融合",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "CSCO 2024推荐所有转移性胰腺癌患者进行胚系和体细胞基因检测，以指导靶向治疗选择（如PARP抑制剂、免疫治疗等）",
+      "domain": "biomarkers",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "可切除胰腺癌",
+      "relation": "CSCO 2024推荐首选治疗",
+      "tail": "根治性手术切除 + 辅助化疗",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "对于可切除胰腺癌（R-PANC），首选根治性手术切除（胰十二指肠切除术/ distal pancreatectomy/全胰切除），术后行辅助化疗，不建议术后单纯观察",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "可切除胰腺癌术后辅助化疗",
+      "relation": "CSCO 2024推荐首选方案",
+      "tail": "mFOLFIRINOX（适合体能状态好者）或吉西他滨 + 卡培他滨/替吉奥",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "辅助化疗首选mFOLFIRINOX方案（PRODIGE-24/CCTG PA.6试验：中位DFS 21.6个月 vs 吉西他滨11.5个月），不适合FOLFIRINOX者可选吉西他滨+卡培他滨（ESPAC-4试验）或吉西他滨单药",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": "28462109"
+    },
+    {
+      "head": "临界可切除胰腺癌（BRPC）",
+      "relation": "CSCO 2024推荐治疗策略",
+      "tail": "新辅助化疗（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇）→ 重新评估 → 手术切除 → 辅助化疗",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "对于临界可切除胰腺癌，推荐先行新辅助化疗（2-6个月），治疗后重新影像学评估，降期后行根治性切除。新辅助治疗的目的是提高R0切除率、消灭微转移、评估肿瘤生物学行为",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "局部晚期不可切除胰腺癌（LA-PANC）",
+      "relation": "CSCO 2024推荐治疗策略",
+      "tail": "化疗为主（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇），化疗后重新评估是否可切除",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "局部晚期胰腺癌以全身化疗为首选，约10-30%的患者化疗后可降期为可切除，此时可考虑手术治疗。初治直接手术不适用于局部晚期患者",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "转移性胰腺癌（M1）一线化疗",
+      "relation": "CSCO 2024推荐首选方案",
+      "tail": "mFOLFIRINOX（体能状态好）或吉西他滨 + 白蛋白紫杉醇（大多数患者）",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "mFOLFIRINOX（MPACT试验）：中位OS 11.1个月；吉西他滨+白蛋白紫杉醇（PRODIGE-4/ACCORD-11试验）：中位OS 8.5个月。两方案均为一线标准，根据患者体能状态选择",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": "31539028"
+    },
+    {
+      "head": "BRCA1/2突变转移性胰腺癌",
+      "relation": "CSCO 2024推荐维持治疗",
+      "tail": "铂类化疗后予奥拉帕利（PARP抑制剂）维持治疗",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "POLO试验：胚系BRCA1/2突变的转移性胰腺癌患者，一线铂类化疗后未进展者，奥拉帕利维持治疗显著延长PFS（7.4个月 vs 3.8个月，HR=0.53），是CSCO 2024 I级推荐",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": "31539029"
+    },
+    {
+      "head": "胰腺癌二线化疗",
+      "relation": "CSCO 2024推荐方案",
+      "tail": "根据一线方案选择：一线FOLFIRINOX失败后用吉西他滨±；一线吉西他滨失败后用FOLFIRINOX（如既往未用）或NALIRIFOX",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "二线治疗需根据一线方案、患者体能状态和既往治疗反应个体化选择。NALIRIFOX（脂质体伊立替康+5-FU/LV+奥沙利铂）是新兴二线选择（NAPOLI-3试验）",
+      "domain": "csco_2024",
       "confidence": 0.9,
-      "pmid": "33004164"
+      "pmid": "37235402"
     },
     {
-      "head": "糖尿病",
-      "relation": "是胰腺癌危险因素",
-      "tail": "新发糖尿病可能是早期症状",
-      "source": "文献",
-      "evidence": "50岁以上新发糖尿病需警惕胰腺癌",
-      "domain": "流行病学",
+      "head": "MSI-H/dMMR转移性胰腺癌",
+      "relation": "CSCO 2024推荐免疫治疗",
+      "tail": "帕博利珠单抗（Pembrolizumab）",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "MSI-H/dMMR在胰腺癌中罕见（<1%），但对PD-1抑制剂高度敏感。帕博利珠单抗已获FDA批准用于MSI-H/dMMR实体瘤（包括胰腺癌）",
+      "domain": "csco_2024",
+      "confidence": 0.9,
+      "pmid": "28462110"
+    },
+    {
+      "head": "NTRK融合阳性胰腺癌",
+      "relation": "CSCO 2024推荐靶向治疗",
+      "tail": "恩曲替尼（Entrectinib）或拉罗替尼（Larotrectinib）",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "NTRK融合在胰腺癌中极罕见（<0.5%），但一旦检出，TRK抑制剂可带来显著的客观缓解。恩曲替尼和拉罗替尼均已获批用于NTRK融合实体瘤",
+      "domain": "csco_2024",
       "confidence": 0.85,
-      "pmid": "31738487"
+      "pmid": "31712543"
     },
     {
-      "head": "BRCA突变",
-      "relation": "是胰腺癌遗传危险因素",
-      "tail": "BRCA1/2突变携带者风险增加2-6倍",
-      "source": "文献",
-      "evidence": "家族性胰腺癌重要病因",
-      "domain": "流行病学",
+      "head": "胰腺癌支持治疗",
+      "relation": "CSCO 2024推荐",
+      "tail": "积极止痛（阿片类）、营养支持、胆道支架（黄疸患者）、胃肠减压（梗阻者）",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "胰腺癌患者常伴剧烈腹痛（腹腔神经丛受累）、黄疸（胆道梗阻）、消化道梗阻和恶液质，需要积极的多学科支持治疗以改善生活质量",
+      "domain": "csco_2024",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "胰腺癌术后随访",
+      "relation": "CSCO 2024推荐监测频率",
+      "tail": "术后前2年每3-6个月一次，之后每6-12个月一次",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "胰腺癌术后复发率高（约70-80%），多发生于术后2年内。随访内容包括病史、体检、CA19-9、CEA、腹部CT/MRI。术后CA19-9持续升高提示复发",
+      "domain": "csco_2024",
       "confidence": 0.9,
-      "pmid": "29449571"
+      "pmid": null
+    },
+    {
+      "head": "胰腺癌多学科诊疗（MDT）",
+      "relation": "CSCO 2024推荐",
+      "tail": "所有胰腺癌患者均应经过MDT讨论制定个体化治疗方案",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "胰腺癌诊疗涉及外科、肿瘤内科、放疗科、影像科、病理科、营养科等多学科，MDT讨论有助于提高R0切除率、选择最佳治疗方案、改善患者预后",
+      "domain": "csco_2024",
+      "confidence": 0.99,
+      "pmid": null
+    },
+    {
+      "head": "中国胰腺癌",
+      "relation": "2022年新发病例数",
+      "tail": "约12.25万例",
+      "source": "国家癌症中心2022年癌症统计报告",
+      "evidence": "2022年中国胰腺癌新发病例约12.25万例，居恶性肿瘤发病第8位",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "中国胰腺癌",
+      "relation": "2022年死亡人数",
+      "tail": "约11.73万例",
+      "source": "国家癌症中心2022年癌症统计报告",
+      "evidence": "2022年中国胰腺癌死亡约11.73万例，居恶性肿瘤死亡第6位，病死比极高",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
       "head": "胰腺癌",
-      "relation": "病理类型占比",
-      "tail": "导管腺癌占90%以上",
-      "source": "专家共识",
-      "evidence": "最常见组织学类型",
-      "domain": "流行病学",
-      "confidence": 0.98
+      "relation": "5年总体生存率",
+      "tail": "<10%",
+      "source": "SEER数据库及中国多中心研究",
+      "evidence": "胰腺癌是预后最差的恶性肿瘤之一，总体5年生存率低于10%，晚期患者中位生存期仅3-6个月",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": "31539028"
+    },
+    {
+      "head": "胰腺导管腺癌（PDAC）",
+      "relation": "占胰腺癌比例",
+      "tail": "约90%",
+      "source": "WHO胰腺肿瘤分类（2022年第5版）",
+      "evidence": "胰腺导管腺癌是最常见的胰腺癌病理类型，约占所有胰腺癌的85-90%，预后极差",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": null
+    },
+    {
+      "head": "胰腺神经内分泌肿瘤（pNET）",
+      "relation": "占胰腺肿瘤比例",
+      "tail": "约2-5%",
+      "source": "WHO胰腺肿瘤分类（2022年第5版）",
+      "evidence": "胰腺神经内分泌肿瘤起自胰腺内分泌细胞，占胰腺肿瘤的2-5%，预后显著好于PDAC",
+      "domain": "epidemiology",
+      "confidence": 0.9,
+      "pmid": null
     },
     {
       "head": "胰腺癌",
-      "relation": "发病高峰年龄",
-      "tail": "60-80岁",
-      "source": "文献",
-      "evidence": "中位诊断年龄约70岁",
-      "domain": "流行病学",
-      "confidence": 0.95
+      "relation": "主要危险因素",
+      "tail": "吸烟（最重要）、慢性胰腺炎、糖尿病、肥胖、家族遗传史",
+      "source": "IARC及CSCO 2024胰腺癌诊疗指南",
+      "evidence": "吸烟是胰腺癌最明确的可控危险因素（RR约1.5-2.0）；慢性胰腺炎患者风险增加5-7倍；新发糖尿病（<3年）可能是胰腺癌的首发症状",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": "28462109"
+    },
+    {
+      "head": "胰腺癌",
+      "relation": "遗传综合征相关比例",
+      "tail": "约10%",
+      "source": "NCCN胰腺癌基因检测共识",
+      "evidence": "约10%的胰腺癌有家族聚集性，其中5-8%可归因于明确的遗传综合征（如HBOC/BRCA突变、Lynch综合征、FAMMM、Peutz-Jeghers综合征等）",
+      "domain": "epidemiology",
+      "confidence": 0.9,
+      "pmid": "31712542"
     },
     {
       "head": "胰腺癌",
       "relation": "性别分布",
-      "tail": "男性略多于女性",
-      "source": "文献",
-      "evidence": "男女比例约1.2:1",
-      "domain": "流行病学",
-      "confidence": 0.9
+      "tail": "男性发病率略高于女性（约1.3:1）",
+      "source": "国家癌症中心统计数据",
+      "evidence": "胰腺癌男性发病率略高于女性，可能与男性吸烟率更高有关",
+      "domain": "epidemiology",
+      "confidence": 0.9,
+      "pmid": null
     },
     {
       "head": "胰腺癌",
-      "relation": "好发部位",
-      "tail": "胰头60-70%",
-      "source": "专家共识",
-      "evidence": "胰头癌常致胆道梗阻",
-      "domain": "流行病学",
-      "confidence": 0.95
+      "relation": "发病高峰年龄",
+      "tail": "65-75岁",
+      "source": "国家癌症中心统计数据及SEER数据库",
+      "evidence": "胰腺癌发病随年龄增加，高峰年龄为65-75岁，但近年来发病呈年轻化趋势",
+      "domain": "epidemiology",
+      "confidence": 0.9,
+      "pmid": null
     },
     {
-      "head": "胰头癌手术",
-      "relation": "标准术式",
-      "tail": "胰十二指肠切除术（Whipple术）",
-      "source": "专家共识",
-      "evidence": "包括十二指肠、胆囊、胆总管、胰头切除",
-      "domain": "治疗",
-      "confidence": 0.98
+      "head": "胰腺癌",
+      "relation": "发病率趋势",
+      "tail": "全球范围内持续上升",
+      "source": "GLOBOCAN 2022",
+      "evidence": "全球胰腺癌发病率呈持续上升趋势，预计2030年将成为第二大癌症死亡原因（仅次于肺癌）",
+      "domain": "epidemiology",
+      "confidence": 0.9,
+      "pmid": null
     },
     {
-      "head": "胰体尾癌手术",
-      "relation": "标准术式",
-      "tail": "胰体尾切除术+脾切除",
-      "source": "专家共识",
-      "evidence": "包括左侧胰腺、脾脏、周围淋巴结",
-      "domain": "治疗",
-      "confidence": 0.98
+      "head": "胰腺癌切除术（R0）后",
+      "relation": "5年生存率",
+      "tail": "20-25%",
+      "source": "SEER数据库及中国多中心研究",
+      "evidence": "即使接受根治性手术切除（R0），胰腺癌患者的5年生存率仍仅为20-25%，远高于多数其他消化道肿瘤切除术后的生存率差距",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": "31539028"
     },
     {
-      "head": "联合血管切除",
-      "relation": "适应症",
-      "tail": "门静脉/肠系膜上静脉受累但可切除重建",
-      "source": "指南",
-      "evidence": "需评估可切除性",
-      "domain": "治疗",
-      "confidence": 0.9
+      "head": "胰腺癌",
+      "relation": "确诊时分期分布",
+      "tail": "约80-85%患者确诊时已无法手术切除（局部晚期或远处转移）",
+      "source": "NCCN胰腺癌指南及多中心研究",
+      "evidence": "由于胰腺癌起病隐匿、缺乏特异性早期症状，约80-85%的患者在确诊时已处于局部晚期或存在远处转移，失去手术切除机会",
+      "domain": "epidemiology",
+      "confidence": 0.95,
+      "pmid": "28462109"
     },
     {
-      "head": "Whipple术后消化道重建",
-      "relation": "方式",
-      "tail": "胰肠吻合+胆肠吻合+胃肠吻合",
-      "source": "专家共识",
-      "evidence": "Child术式最常用",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌手术",
+      "relation": "可切除病变首选术式",
+      "tail": "胰十二指肠切除术（Whipple手术，胰头癌）或远端胰腺切除术（胰体尾癌）",
+      "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+      "evidence": "胰头/钩突癌行胰十二指肠切除术（切除胰头、十二指肠、胆囊、胆总管、部分胃）；胰体尾癌行远端胰腺切除术（保留脾脏或联合脾切除，后者更适合可能淋巴结转移者）；全胰癌行全胰切除术",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
-      "head": "胰瘘",
-      "relation": "是Whipple术后主要并发症",
-      "tail": "发生率约10-20%",
-      "source": "文献",
-      "evidence": "分级A/B/C级",
-      "domain": "治疗",
-      "confidence": 0.9
+      "head": "胰十二指肠切除术（Whipple手术）",
+      "relation": "围手术期死亡率",
+      "tail": "在高年胰腺中心<2-5%",
+      "source": "NCCN胰腺癌指南及中国胰腺外科共识",
+      "evidence": "Whipple手术是腹部最复杂的手术之一，围手术期死亡率在大型胰腺中心已降至2-5%以下，但术后并发症发生率仍高达30-50%（胰瘘、胆瘘、出血、腹腔感染）",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
-      "head": "新辅助治疗",
-      "relation": "目的",
-      "tail": "缩小肿瘤、提高R0切除率、筛选生物学行为",
-      "source": "指南",
-      "evidence": "边界可切除首选",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌新辅助化疗",
+      "relation": "推荐方案",
+      "tail": "mFOLFIRINOX（优选）或吉西他滨 + 白蛋白紫杉醇",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "新辅助治疗周期通常为2-6个月，治疗后需重新行MDT评估。mFOLFIRINOX新辅助治疗的降期率和R0切除率优于吉西他滨+白蛋白紫杉醇",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": "28462109"
     },
     {
-      "head": "新辅助治疗周期",
-      "relation": "推荐",
-      "tail": "2-4周期后重新评估",
-      "source": "指南",
-      "evidence": "根据疗效调整",
-      "domain": "治疗",
-      "confidence": 0.9
-    },
-    {
-      "head": "辅助化疗开始时间",
-      "relation": "推荐",
-      "tail": "术后4-8周，伤口愈合后",
-      "source": "指南",
-      "evidence": "体能恢复后尽早开始",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "辅助化疗疗程",
-      "relation": "推荐",
-      "tail": "6个月（吉西他滨或替吉奥）",
-      "source": "指南",
-      "evidence": "CONKO-001和JASPAC-01研究",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌辅助化疗",
+      "relation": "开始时机",
+      "tail": "术后4-8周内，患者恢复良好时开始",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "辅助化疗应在术后4-8周内开始，最迟不超过12周。延迟开始会影响疗效。推荐完成6个月辅助化疗",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
       "head": "mFOLFIRINOX方案",
-      "relation": "定义",
-      "tail": "减量FOLFIRINOX（奥沙利铂85+伊立替康150+5-FU 2400)",
-      "source": "文献",
-      "evidence": "提高耐受性",
-      "domain": "治疗",
-      "confidence": 0.85
+      "relation": "具体药物组成",
+      "tail": "奥沙利铂 + 伊立替康 + 亚叶酸钙 + 氟尿嘧啶（5-FU）",
+      "source": "NCCN胰腺癌指南",
+      "evidence": "mFOLFIRINOX（改良FOLFIRINOX，通过降低5-FU持续输注剂量降低毒性）是体能状态良好（ECOG 0-1）胰腺癌患者的首选方案，中位OS可达14-18个月（晚期一线）",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": "25033468"
     },
     {
-      "head": "白蛋白紫杉醇",
-      "relation": "机制",
-      "tail": "通过SPARC蛋白增强肿瘤内药物浓度",
-      "source": "文献",
-      "evidence": "肿瘤微环境改善",
-      "domain": "治疗",
+      "head": "吉西他滨 + 白蛋白紫杉醇",
+      "relation": "具体用法",
+      "tail": "吉西他滨1000mg/m² + 白蛋白紫杉醇125mg/m²，d1,8,15，每28天为一周期",
+      "source": "NCCN胰腺癌指南及MPACT试验",
+      "evidence": "吉西他滨+白蛋白紫杉醇是晚期胰腺癌的一线标准方案（尤其适用于不适合FOLFIRINOX者），中位OS 8.5个月，ORR 23%",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": "31539028"
+    },
+    {
+      "head": "胰腺癌放疗",
+      "relation": "适应证",
+      "tail": "局部晚期不可切除（放化疗）、R1/R2切除后辅助放化疗、姑息止痛（骨转移/局部侵犯疼痛）",
+      "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+      "evidence": "放疗在胰腺癌中的地位有限。对于局部晚期患者，可在化疗基础上联合放疗（但PRODIGE-11等试验未显示明确生存获益）。R1切除后可考虑辅助放化疗。姑息放疗主要用于止痛",
+      "domain": "treatment",
       "confidence": 0.85,
-      "pmid": "24520095"
+      "pmid": null
     },
     {
-      "head": "同步放化疗",
-      "relation": "适应症",
-      "tail": "局部晚期胰腺癌，不可切除但无转移",
-      "source": "指南",
-      "evidence": "LAP-07研究证据",
-      "domain": "治疗",
-      "confidence": 0.9
+      "head": "胰腺癌疼痛管理",
+      "relation": "腹腔神经丛毁损/阻滞",
+      "tail": "适用于癌性腹痛患者，可显著改善生活质量",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "约70-80%的胰腺癌患者出现中重度腹痛（腹腔神经丛受累）。超声内镜（EUS）引导下的腹腔神经丛阻滞/毁损是有效的止痛手段，可减少阿片类药物用量",
+      "domain": "treatment",
+      "confidence": 0.9,
+      "pmid": null
     },
     {
-      "head": "SBRT",
-      "relation": "用于",
-      "tail": "局部晚期胰腺癌或寡转移灶",
-      "source": "指南",
-      "evidence": "大分割放疗",
-      "domain": "治疗",
-      "confidence": 0.8
+      "head": "胰腺癌胆道梗阻",
+      "relation": "处理策略",
+      "tail": "优先考虑内镜下胆道支架置入（ERCP），减黄后行新辅助/辅助治疗",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "胰头癌常压迫胆总管导致梗阻性黄疸。ERCP下置入胆道支架（塑料支架或金属支架）是首选减黄方式。减黄后患者一般状况改善，可更好地耐受手术或化疗",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": null
     },
     {
-      "head": "二线治疗",
-      "relation": "推荐方案",
-      "tail": "伊立替康脂质体+5-FU/亚叶酸",
-      "source": "指南",
-      "evidence": "NAPOLI-1研究证据",
-      "domain": "治疗",
-      "confidence": 0.9
+      "head": "胰腺癌遗传咨询",
+      "relation": "推荐人群",
+      "tail": "所有确诊胰腺癌患者，尤其有家族史、年轻发病（<50岁）、或已知胚系突变携带者",
+      "source": "NCCN胰腺癌基因检测共识",
+      "evidence": "所有胰腺癌患者均应进行遗传咨询和胚系基因检测。若检出BRCA1/2、PALB2、ATM等突变，其一级亲属应进行针对性筛查和风险管理",
+      "domain": "treatment",
+      "confidence": 0.95,
+      "pmid": "31712542"
     },
     {
-      "head": "靶向治疗",
-      "relation": "BRCA突变",
-      "tail": "PARP抑制剂（奥拉帕利/卢卡帕利）",
-      "source": "指南",
-      "evidence": "维持治疗适应症",
-      "domain": "治疗",
-      "confidence": 0.95
+      "head": "胰腺癌随访监测",
+      "relation": "监测内容",
+      "tail": "病史体检、CA19-9、CEA、腹部CT/MRI、胸部X线/CT",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "术后随访常规包括：每3-6个月复查CA19-9和CEA，每6-12个月复查腹部CT/MRI。CA19-9在Lewis抗原阴性者中不升高，此时CEA可作为替代标志物",
+      "domain": "treatment",
+      "confidence": 0.9,
+      "pmid": null
+    },
+    {
+      "head": "胰腺神经内分泌肿瘤（pNET）",
+      "relation": "治疗原则",
+      "tail": "可切除者手术切除；不可切除/转移性者：生长抑素类似物、靶向治疗（依维莫司/舒尼替尼）、PRRT",
+      "source": "CSCO神经内分泌肿瘤诊疗指南及ENETS共识",
+      "evidence": "pNET的治疗与PDAC完全不同。局限性pNET可行根治性切除；晚期pNET首选生长抑素类似物（奥曲肽LAR/兰瑞肽）控制激素症状和肿瘤进展；依维莫司（mTOR抑制剂）和舒尼替尼（TKI）可用于进展期pNET；PRRT（肽受体放射性核素治疗）适用于SST受体阳性的转移性pNET",
+      "domain": "treatment",
+      "confidence": 0.9,
+      "pmid": "28462111"
+    },
+    {
+      "head": "胰腺癌术前减黄",
+      "relation": "CSCO 2024推荐策略",
+      "tail": "bilirubin <250μmol/L（<15mg/dL）且拟行新辅助治疗者，无需常规术前减黄；需立即手术者如bilirubin显著升高可短期减黄",
+      "source": "CSCO 2024胰腺癌诊疗指南",
+      "evidence": "传统观念认为术前胆红素需降至正常再手术，但新证据显示对于拟行新辅助治疗的患者，无需术前减黄（新辅助化疗期间胆红素可自然下降）。需立即手术且bilirubin显著升高者可先行ERCP支架减黄1-2周",
+      "domain": "treatment",
+      "confidence": 0.85,
+      "pmid": null
     }
   ]
 }

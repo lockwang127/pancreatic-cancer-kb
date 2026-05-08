@@ -1,140 +1,132 @@
-{
-  "knowledge_triplets": [
-    {
-      "head": "胰头癌手术",
-      "relation": "标准术式",
-      "tail": "胰十二指肠切除术（Whipple术）",
-      "source": "专家共识",
-      "evidence": "包括十二指肠、胆囊、胆总管、胰头切除",
-      "domain": "治疗",
-      "confidence": 0.98
-    },
-    {
-      "head": "胰体尾癌手术",
-      "relation": "标准术式",
-      "tail": "胰体尾切除术+脾切除",
-      "source": "专家共识",
-      "evidence": "包括左侧胰腺、脾脏、周围淋巴结",
-      "domain": "治疗",
-      "confidence": 0.98
-    },
-    {
-      "head": "联合血管切除",
-      "relation": "适应症",
-      "tail": "门静脉/肠系膜上静脉受累但可切除重建",
-      "source": "指南",
-      "evidence": "需评估可切除性",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "Whipple术后消化道重建",
-      "relation": "方式",
-      "tail": "胰肠吻合+胆肠吻合+胃肠吻合",
-      "source": "专家共识",
-      "evidence": "Child术式最常用",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "胰瘘",
-      "relation": "是Whipple术后主要并发症",
-      "tail": "发生率约10-20%",
-      "source": "文献",
-      "evidence": "分级A/B/C级",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "新辅助治疗",
-      "relation": "目的",
-      "tail": "缩小肿瘤、提高R0切除率、筛选生物学行为",
-      "source": "指南",
-      "evidence": "边界可切除首选",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "新辅助治疗周期",
-      "relation": "推荐",
-      "tail": "2-4周期后重新评估",
-      "source": "指南",
-      "evidence": "根据疗效调整",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "辅助化疗开始时间",
-      "relation": "推荐",
-      "tail": "术后4-8周，伤口愈合后",
-      "source": "指南",
-      "evidence": "体能恢复后尽早开始",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "辅助化疗疗程",
-      "relation": "推荐",
-      "tail": "6个月（吉西他滨或替吉奥）",
-      "source": "指南",
-      "evidence": "CONKO-001和JASPAC-01研究",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "mFOLFIRINOX方案",
-      "relation": "定义",
-      "tail": "减量FOLFIRINOX（奥沙利铂85+伊立替康150+5-FU 2400)",
-      "source": "文献",
-      "evidence": "提高耐受性",
-      "domain": "治疗",
-      "confidence": 0.85
-    },
-    {
-      "head": "白蛋白紫杉醇",
-      "relation": "机制",
-      "tail": "通过SPARC蛋白增强肿瘤内药物浓度",
-      "source": "文献",
-      "evidence": "肿瘤微环境改善",
-      "domain": "治疗",
-      "confidence": 0.85,
-      "pmid": "24520095"
-    },
-    {
-      "head": "同步放化疗",
-      "relation": "适应症",
-      "tail": "局部晚期胰腺癌，不可切除但无转移",
-      "source": "指南",
-      "evidence": "LAP-07研究证据",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "SBRT",
-      "relation": "用于",
-      "tail": "局部晚期胰腺癌或寡转移灶",
-      "source": "指南",
-      "evidence": "大分割放疗",
-      "domain": "治疗",
-      "confidence": 0.80
-    },
-    {
-      "head": "二线治疗",
-      "relation": "推荐方案",
-      "tail": "伊立替康脂质体+5-FU/亚叶酸",
-      "source": "指南",
-      "evidence": "NAPOLI-1研究证据",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "靶向治疗",
-      "relation": "BRCA突变",
-      "tail": "PARP抑制剂（奥拉帕利/卢卡帕利）",
-      "source": "指南",
-      "evidence": "维持治疗适应症",
-      "domain": "治疗",
-      "confidence": 0.95
-    }
-  ]
-}
+[
+  {
+    "head": "胰腺癌手术",
+    "relation": "可切除病变首选术式",
+    "tail": "胰十二指肠切除术（Whipple手术，胰头癌）或远端胰腺切除术（胰体尾癌）",
+    "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+    "evidence": "胰头/钩突癌行胰十二指肠切除术（切除胰头、十二指肠、胆囊、胆总管、部分胃）；胰体尾癌行远端胰腺切除术（保留脾脏或联合脾切除，后者更适合可能淋巴结转移者）；全胰癌行全胰切除术",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰十二指肠切除术（Whipple手术）",
+    "relation": "围手术期死亡率",
+    "tail": "在高年胰腺中心<2-5%",
+    "source": "NCCN胰腺癌指南及中国胰腺外科共识",
+    "evidence": "Whipple手术是腹部最复杂的手术之一，围手术期死亡率在大型胰腺中心已降至2-5%以下，但术后并发症发生率仍高达30-50%（胰瘘、胆瘘、出血、腹腔感染）",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌新辅助化疗",
+    "relation": "推荐方案",
+    "tail": "mFOLFIRINOX（优选）或吉西他滨 + 白蛋白紫杉醇",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "新辅助治疗周期通常为2-6个月，治疗后需重新行MDT评估。mFOLFIRINOX新辅助治疗的降期率和R0切除率优于吉西他滨+白蛋白紫杉醇",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "28462109"
+  },
+  {
+    "head": "胰腺癌辅助化疗",
+    "relation": "开始时机",
+    "tail": "术后4-8周内，患者恢复良好时开始",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "辅助化疗应在术后4-8周内开始，最迟不超过12周。延迟开始会影响疗效。推荐完成6个月辅助化疗",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "mFOLFIRINOX方案",
+    "relation": "具体药物组成",
+    "tail": "奥沙利铂 + 伊立替康 + 亚叶酸钙 + 氟尿嘧啶（5-FU）",
+    "source": "NCCN胰腺癌指南",
+    "evidence": "mFOLFIRINOX（改良FOLFIRINOX，通过降低5-FU持续输注剂量降低毒性）是体能状态良好（ECOG 0-1）胰腺癌患者的首选方案，中位OS可达14-18个月（晚期一线）",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "25033468"
+  },
+  {
+    "head": "吉西他滨 + 白蛋白紫杉醇",
+    "relation": "具体用法",
+    "tail": "吉西他滨1000mg/m² + 白蛋白紫杉醇125mg/m²，d1,8,15，每28天为一周期",
+    "source": "NCCN胰腺癌指南及MPACT试验",
+    "evidence": "吉西他滨+白蛋白紫杉醇是晚期胰腺癌的一线标准方案（尤其适用于不适合FOLFIRINOX者），中位OS 8.5个月，ORR 23%",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31539028"
+  },
+  {
+    "head": "胰腺癌放疗",
+    "relation": "适应证",
+    "tail": "局部晚期不可切除（放化疗）、R1/R2切除后辅助放化疗、姑息止痛（骨转移/局部侵犯疼痛）",
+    "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+    "evidence": "放疗在胰腺癌中的地位有限。对于局部晚期患者，可在化疗基础上联合放疗（但PRODIGE-11等试验未显示明确生存获益）。R1切除后可考虑辅助放化疗。姑息放疗主要用于止痛",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌疼痛管理",
+    "relation": "腹腔神经丛毁损/阻滞",
+    "tail": "适用于癌性腹痛患者，可显著改善生活质量",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "约70-80%的胰腺癌患者出现中重度腹痛（腹腔神经丛受累）。超声内镜（EUS）引导下的腹腔神经丛阻滞/毁损是有效的止痛手段，可减少阿片类药物用量",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌胆道梗阻",
+    "relation": "处理策略",
+    "tail": "优先考虑内镜下胆道支架置入（ERCP），减黄后行新辅助/辅助治疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰头癌常压迫胆总管导致梗阻性黄疸。ERCP下置入胆道支架（塑料支架或金属支架）是首选减黄方式。减黄后患者一般状况改善，可更好地耐受手术或化疗",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌遗传咨询",
+    "relation": "推荐人群",
+    "tail": "所有确诊胰腺癌患者，尤其有家族史、年轻发病（<50岁）、或已知胚系突变携带者",
+    "source": "NCCN胰腺癌基因检测共识",
+    "evidence": "所有胰腺癌患者均应进行遗传咨询和胚系基因检测。若检出BRCA1/2、PALB2、ATM等突变，其一级亲属应进行针对性筛查和风险管理",
+    "domain": "treatment",
+    "confidence": 0.95,
+    "pmid": "31712542"
+  },
+  {
+    "head": "胰腺癌随访监测",
+    "relation": "监测内容",
+    "tail": "病史体检、CA19-9、CEA、腹部CT/MRI、胸部X线/CT",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "术后随访常规包括：每3-6个月复查CA19-9和CEA，每6-12个月复查腹部CT/MRI。CA19-9在Lewis抗原阴性者中不升高，此时CEA可作为替代标志物",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "胰腺神经内分泌肿瘤（pNET）",
+    "relation": "治疗原则",
+    "tail": "可切除者手术切除；不可切除/转移性者：生长抑素类似物、靶向治疗（依维莫司/舒尼替尼）、PRRT",
+    "source": "CSCO神经内分泌肿瘤诊疗指南及ENETS共识",
+    "evidence": "pNET的治疗与PDAC完全不同。局限性pNET可行根治性切除；晚期pNET首选生长抑素类似物（奥曲肽LAR/兰瑞肽）控制激素症状和肿瘤进展；依维莫司（mTOR抑制剂）和舒尼替尼（TKI）可用于进展期pNET；PRRT（肽受体放射性核素治疗）适用于SST受体阳性的转移性pNET",
+    "domain": "treatment",
+    "confidence": 0.90,
+    "pmid": "28462111"
+  },
+  {
+    "head": "胰腺癌术前减黄",
+    "relation": "CSCO 2024推荐策略",
+    "tail": "bilirubin <250μmol/L（<15mg/dL）且拟行新辅助治疗者，无需常规术前减黄；需立即手术者如bilirubin显著升高可短期减黄",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "传统观念认为术前胆红素需降至正常再手术，但新证据显示对于拟行新辅助治疗的患者，无需术前减黄（新辅助化疗期间胆红素可自然下降）。需立即手术且bilirubin显著升高者可先行ERCP支架减黄1-2周",
+    "domain": "treatment",
+    "confidence": 0.85,
+    "pmid": null
+  }
+]

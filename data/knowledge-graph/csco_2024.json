@@ -1,140 +1,122 @@
-{
-  "knowledge_triplets": [
-    {
-      "head": "可切除胰腺癌",
-      "relation": "首选治疗",
-      "tail": "手术+辅助化疗",
-      "source": "指南",
-      "evidence": "根治性切除后推荐辅助治疗",
-      "domain": "治疗",
-      "confidence": 0.98
-    },
-    {
-      "head": "可切除胰腺癌辅助化疗方案",
-      "relation": "推荐方案",
-      "tail": "吉西他滨或替吉奥单药",
-      "source": "指南",
-      "evidence": "术后辅助化疗首选",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "吉西他滨辅助化疗",
-      "relation": "方案",
-      "tail": "1000mg/m² d1,8,15，每28天×6周期",
-      "source": "指南",
-      "evidence": "CONKO-001研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "替吉奥辅助化疗",
-      "relation": "方案",
-      "tail": "体表面积给药，d1-28，每42天×6周期",
-      "source": "指南",
-      "evidence": "JASPAC-01研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "边界可切除胰腺癌",
-      "relation": "推荐治疗",
-      "tail": "新辅助化疗后评估手术可能性",
-      "source": "指南",
-      "evidence": "NCCN同样推荐新辅助治疗",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "边界可切除新辅助化疗",
-      "relation": "推荐方案",
-      "tail": "FOLFIRINOX或吉西他滨+白蛋白紫杉醇",
-      "source": "指南",
-      "evidence": "2-4周期后评估",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "局部晚期胰腺癌",
-      "relation": "推荐治疗",
-      "tail": "同步放化疗或诱导化疗后放化疗",
-      "source": "指南",
-      "evidence": "根据体能状态选择",
-      "domain": "治疗",
-      "confidence": 0.90
-    },
-    {
-      "head": "晚期胰腺癌一线治疗",
-      "relation": "体能好患者推荐",
-      "tail": "FOLFIRINOX方案",
-      "source": "指南",
-      "evidence": "PRODIGE研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "FOLFIRINOX方案",
-      "relation": "药物组成",
-      "tail": "奥沙利铂+伊立替康+氟尿嘧啶+亚叶酸钙",
-      "source": "指南",
-      "evidence": "标准剂量或减量",
-      "domain": "治疗",
-      "confidence": 0.98
-    },
-    {
-      "head": "FOLFIRINOX方案",
-      "relation": "适应人群",
-      "tail": "ECOG 0-1，胆红素正常，年龄<76岁",
-      "source": "指南",
-      "evidence": "毒性较大需筛选患者",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "晚期胰腺癌一线治疗",
-      "relation": "体能一般患者推荐",
-      "tail": "吉西他滨+白蛋白紫杉醇",
-      "source": "指南",
-      "evidence": "MPACT研究证据",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "吉西他滨+白蛋白紫杉醇",
-      "relation": "方案",
-      "tail": "吉西他滨1000mg/m² d1,8,15 + 白蛋白紫杉醇125mg/m² d1,8,15，每28天",
-      "source": "指南",
-      "evidence": "每周期d1需在d1,8,15前使用",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "BRCA突变胰腺癌",
-      "relation": "维持治疗推荐",
-      "tail": "奥拉帕利",
-      "source": "指南",
-      "evidence": "POLO研究证据",
-      "domain": "治疗",
-      "confidence": 0.95,
-      "pmid": "31157963"
-    },
-    {
-      "head": "奥拉帕利",
-      "relation": "BRCA突变维持治疗",
-      "tail": "300mg bid",
-      "source": "指南",
-      "evidence": "含铂化疗获益后维持",
-      "domain": "治疗",
-      "confidence": 0.95
-    },
-    {
-      "head": "BRCA突变胰腺癌",
-      "relation": "另一维持治疗选择",
-      "tail": "卢卡帕利",
-      "source": "指南",
-      "evidence": "Rucaparib维持治疗",
-      "domain": "治疗",
-      "confidence": 0.90
-    }
-  ]
-}
+[
+  {
+    "head": "可切除胰腺癌",
+    "relation": "CSCO 2024推荐首选治疗",
+    "tail": "根治性手术切除 + 辅助化疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "对于可切除胰腺癌（R-PANC），首选根治性手术切除（胰十二指肠切除术/ distal pancreatectomy/全胰切除），术后行辅助化疗，不建议术后单纯观察",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "可切除胰腺癌术后辅助化疗",
+    "relation": "CSCO 2024推荐首选方案",
+    "tail": "mFOLFIRINOX（适合体能状态好者）或吉西他滨 + 卡培他滨/替吉奥",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "辅助化疗首选mFOLFIRINOX方案（PRODIGE-24/CCTG PA.6试验：中位DFS 21.6个月 vs 吉西他滨11.5个月），不适合FOLFIRINOX者可选吉西他滨+卡培他滨（ESPAC-4试验）或吉西他滨单药",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "28462109"
+  },
+  {
+    "head": "临界可切除胰腺癌（BRPC）",
+    "relation": "CSCO 2024推荐治疗策略",
+    "tail": "新辅助化疗（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇）→ 重新评估 → 手术切除 → 辅助化疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "对于临界可切除胰腺癌，推荐先行新辅助化疗（2-6个月），治疗后重新影像学评估，降期后行根治性切除。新辅助治疗的目的是提高R0切除率、消灭微转移、评估肿瘤生物学行为",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "局部晚期不可切除胰腺癌（LA-PANC）",
+    "relation": "CSCO 2024推荐治疗策略",
+    "tail": "化疗为主（mFOLFIRINOX或吉西他滨+白蛋白紫杉醇），化疗后重新评估是否可切除",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "局部晚期胰腺癌以全身化疗为首选，约10-30%的患者化疗后可降期为可切除，此时可考虑手术治疗。初治直接手术不适用于局部晚期患者",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "转移性胰腺癌（M1）一线化疗",
+    "relation": "CSCO 2024推荐首选方案",
+    "tail": "mFOLFIRINOX（体能状态好）或吉西他滨 + 白蛋白紫杉醇（大多数患者）",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "mFOLFIRINOX（MPACT试验）：中位OS 11.1个月；吉西他滨+白蛋白紫杉醇（PRODIGE-4/ACCORD-11试验）：中位OS 8.5个月。两方案均为一线标准，根据患者体能状态选择",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "31539028"
+  },
+  {
+    "head": "BRCA1/2突变转移性胰腺癌",
+    "relation": "CSCO 2024推荐维持治疗",
+    "tail": "铂类化疗后予奥拉帕利（PARP抑制剂）维持治疗",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "POLO试验：胚系BRCA1/2突变的转移性胰腺癌患者，一线铂类化疗后未进展者，奥拉帕利维持治疗显著延长PFS（7.4个月 vs 3.8个月，HR=0.53），是CSCO 2024 I级推荐",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "31539029"
+  },
+  {
+    "head": "胰腺癌二线化疗",
+    "relation": "CSCO 2024推荐方案",
+    "tail": "根据一线方案选择：一线FOLFIRINOX失败后用吉西他滨±；一线吉西他滨失败后用FOLFIRINOX（如既往未用）或NALIRIFOX",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "二线治疗需根据一线方案、患者体能状态和既往治疗反应个体化选择。NALIRIFOX（脂质体伊立替康+5-FU/LV+奥沙利铂）是新兴二线选择（NAPOLI-3试验）",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "37235402"
+  },
+  {
+    "head": "MSI-H/dMMR转移性胰腺癌",
+    "relation": "CSCO 2024推荐免疫治疗",
+    "tail": "帕博利珠单抗（Pembrolizumab）",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "MSI-H/dMMR在胰腺癌中罕见（<1%），但对PD-1抑制剂高度敏感。帕博利珠单抗已获FDA批准用于MSI-H/dMMR实体瘤（包括胰腺癌）",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "28462110"
+  },
+  {
+    "head": "NTRK融合阳性胰腺癌",
+    "relation": "CSCO 2024推荐靶向治疗",
+    "tail": "恩曲替尼（Entrectinib）或拉罗替尼（Larotrectinib）",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "NTRK融合在胰腺癌中极罕见（<0.5%），但一旦检出，TRK抑制剂可带来显著的客观缓解。恩曲替尼和拉罗替尼均已获批用于NTRK融合实体瘤",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": "31712543"
+  },
+  {
+    "head": "胰腺癌支持治疗",
+    "relation": "CSCO 2024推荐",
+    "tail": "积极止痛（阿片类）、营养支持、胆道支架（黄疸患者）、胃肠减压（梗阻者）",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌患者常伴剧烈腹痛（腹腔神经丛受累）、黄疸（胆道梗阻）、消化道梗阻和恶液质，需要积极的多学科支持治疗以改善生活质量",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌术后随访",
+    "relation": "CSCO 2024推荐监测频率",
+    "tail": "术后前2年每3-6个月一次，之后每6-12个月一次",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌术后复发率高（约70-80%），多发生于术后2年内。随访内容包括病史、体检、CA19-9、CEA、腹部CT/MRI。术后CA19-9持续升高提示复发",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌多学科诊疗（MDT）",
+    "relation": "CSCO 2024推荐",
+    "tail": "所有胰腺癌患者均应经过MDT讨论制定个体化治疗方案",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "胰腺癌诊疗涉及外科、肿瘤内科、放疗科、影像科、病理科、营养科等多学科，MDT讨论有助于提高R0切除率、选择最佳治疗方案、改善患者预后",
+    "domain": "csco_2024",
+    "confidence": 0.99,
+    "pmid": null
+  }
+]

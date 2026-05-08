@@ -1,100 +1,67 @@
 #!/usr/bin/env python3
-"""
-GitHub同步脚本
-将本地知识库推送到GitHub远程仓库
-"""
+"""Sync pancreatic cancer knowledge base to GitHub repository."""
 
 import os
 import subprocess
-from pathlib import Path
+import sys
+
+REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def check_git_status():
-    """检查Git状态"""
-    repo_dir = Path(__file__).parent.parent
-
-    # 检查是否为Git仓库
-    if not (repo_dir / ".git").exists():
-        print("错误: 当前目录不是Git仓库")
-        print("请先运行: git init")
-        return False
-
-    # 检查远程仓库配置
-    result = subprocess.run(
-        ["git", "remote", "-v"],
-        cwd=repo_dir,
-        capture_output=True,
-        text=True
-    )
-
-    if "origin" not in result.stdout:
-        print("警告: 未配置远程仓库(origin)")
-        print("\n请按以下步骤操作:")
-        print("1. 访问 https://github.com/new 创建名为 'pancreatic-cancer-kb' 的仓库（选择Public）")
-        print("2. 运行命令:")
-        print("   git remote add origin git@github.com:lockwang127/pancreatic-cancer-kb.git")
-        print("   git branch -M main")
-        print("   git push -u origin main")
-        return False
-
-    return True
+def run_cmd(cmd, check=True):
+    """Run a shell command."""
+    print(f"  $ {cmd}")
+    result = subprocess.run(cmd, shell=True, cwd=REPO_DIR, capture_output=True, text=True)
+    if result.stdout:
+        print(f"  {result.stdout.strip()}")
+    if result.stderr:
+        print(f"  [stderr] {result.stderr.strip()}")
+    if check and result.returncode != 0:
+        print(f"Error: command failed with exit code {result.returncode}")
+        sys.exit(1)
+    return result
 
 
-def sync_to_github():
-    """同步到GitHub"""
-    repo_dir = Path(__file__).parent.parent
-
+def sync():
+    """Sync to GitHub."""
     print("=" * 60)
-    print("GitHub同步检查")
+    print("Pancreatic Cancer KB - GitHub Sync")
     print("=" * 60)
 
-    if not check_git_status():
-        print("\n同步中止。请先完成Git远程仓库配置。")
+    print("\n[CHECK] Git status...")
+    run_cmd("git status --short")
+
+    print("\n[CHECK] Remote origin...")
+    result = run_cmd("git remote get-url origin", check=False)
+    if result.returncode != 0:
+        print("\n[INFO] No remote origin set. To connect to GitHub:")
+        print("  1. Create repository at https://github.com/new")
+        print("  2. Run: git remote add origin git@github.com:lockwang127/pancreatic-cancer-kb.git")
+        print("  3. Run: git push -u origin main")
         return
 
-    # 获取当前分支状态
-    result = subprocess.run(
-        ["git", "status", "--short"],
-        cwd=repo_dir,
-        capture_output=True,
-        text=True
-    )
+    print(f"  Remote: {result.stdout.strip()}")
 
-    if result.stdout.strip():
-        print("\n有未提交的更改:")
-        print(result.stdout)
+    print("\n[BUILD] Building knowledge base...")
+    build_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_kb.py")
+    run_cmd(f"python3 {build_script}")
 
-        # 检查是否有build生成的文件
-        kb_file = repo_dir / "data" / "kb.json"
-        meta_file = repo_dir / "data" / "kb_meta.json"
+    print("\n[ADD] Staging changes...")
+    run_cmd("git add -A")
 
-        if kb_file.exists():
-            print(f"\n发现生成的 kb.json ({(kb_file.stat().st_size / 1024):.1f} KB)")
-        if meta_file.exists():
-            print(f"发现生成的 kb_meta.json")
+    result = run_cmd("git status --porcelain", check=False)
+    if not result.stdout.strip():
+        print("\n[INFO] No changes to commit. Repository is up to date.")
+        return
 
-        print("\n请运行以下命令提交并推送:")
-        print("  git add .")
-        print("  git commit -m 'Your commit message'")
-        print("  git push -u origin main")
+    timestamp = __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M")
+    run_cmd(f'git commit -m "Update knowledge base - {timestamp}"')
 
-    else:
-        print("\n没有未提交的更改，工作区干净。")
+    print("\n[PUSH] Pushing to GitHub...")
+    run_cmd("git push origin main")
 
-    # 检查远程分支
-    result = subprocess.run(
-        ["git", "remote", "-v"],
-        cwd=repo_dir,
-        capture_output=True,
-        text=True
-    )
-    print(f"\n远程仓库配置:")
-    print(result.stdout)
-
-    print("\n" + "=" * 60)
-    print("检查完成!")
-    print("=" * 60)
+    print("\n[DONE] Sync complete!")
 
 
 if __name__ == "__main__":
-    sync_to_github()
+    sync()

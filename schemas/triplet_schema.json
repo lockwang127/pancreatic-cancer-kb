@@ -1,63 +1,50 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "知识三元组Schema",
-  "description": "胰腺癌知识库知识三元组标准格式",
+  "title": "Pancreatic Cancer Knowledge Triplet Schema",
+  "description": "Schema for pancreatic cancer knowledge base triplets (head-relation-tail)",
   "type": "object",
-  "required": ["head", "relation", "tail"],
   "properties": {
     "head": {
       "type": "string",
-      "description": "实体头节点/主语"
+      "description": "Subject entity of the triplet",
+      "minLength": 1
     },
     "relation": {
       "type": "string",
-      "description": "关系类型",
-      "enum": [
-        "是",
-        "有",
-        "位于",
-        "用于",
-        "推荐",
-        "禁忌",
-        "导致",
-        "相关",
-        "包括",
-        "分期为",
-        "治疗方案为",
-        "指标为",
-        "发生于",
-        "通过",
-        "剂量为",
-        "频率为"
-      ]
+      "description": "Relationship between head and tail",
+      "minLength": 1
     },
     "tail": {
       "type": "string",
-      "description": "实体尾节点/宾语"
+      "description": "Object entity of the triplet",
+      "minLength": 1
     },
     "source": {
       "type": "string",
-      "description": "证据来源类型",
-      "enum": ["指南", "文献", "临床试验", "专家共识", "数据库"]
+      "description": "Source of the knowledge (guideline, study, etc.)",
+      "minLength": 1
     },
     "evidence": {
       "type": "string",
-      "description": "具体证据描述"
+      "description": "Detailed evidence or explanation",
+      "minLength": 1
     },
     "domain": {
       "type": "string",
-      "description": "知识领域",
-      "enum": ["流行病学", "诊断", "分期", "治疗", "预后", "生物标志物", "病理"]
+      "description": "Knowledge domain category",
+      "enum": ["epidemiology", "biomarkers", "csco_2024", "treatment"]
     },
     "confidence": {
       "type": "number",
+      "description": "Confidence score between 0 and 1",
       "minimum": 0,
-      "maximum": 1,
-      "description": "置信度 0-1"
+      "maximum": 1
     },
     "pmid": {
-      "type": "string",
-      "description": "PubMed ID (可选)"
+      "type": ["string", "null"],
+      "description": "PubMed ID reference if available"
     }
-  }
+  },
+  "required": ["head", "relation", "tail", "source", "evidence", "domain", "confidence", "pmid"],
+  "additionalProperties": false
 }

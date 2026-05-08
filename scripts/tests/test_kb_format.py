@@ -1,149 +1,196 @@
 #!/usr/bin/env python3
-"""
-知识库格式验证测试
-验证所有知识三元组是否符合Schema规范
-"""
+"""Test pancreatic cancer knowledge base format validation."""
 
 import json
+import os
 import sys
-from pathlib import Path
 
-# 添加项目根目录到路径
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# Resolve project root: scripts/tests/ -> scripts/ -> project_root/
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-KB_DIR = Path(__file__).parent.parent.parent / "data" / "knowledge-graph"
-SCHEMA_FILE = Path(__file__).parent.parent.parent / "schemas" / "triplet_schema.json"
+KG_DIR = os.path.join(_PROJECT_ROOT, "data", "knowledge-graph")
+DATA_DIR = os.path.join(_PROJECT_ROOT, "data")
+SCHEMA_PATH = os.path.join(_PROJECT_ROOT, "schemas", "triplet_schema.json")
 
-# 必需字段
-REQUIRED_FIELDS = ["head", "relation", "tail"]
-# 可选字段
-OPTIONAL_FIELDS = ["source", "evidence", "domain", "confidence", "pmid"]
-# 有效枚举值
-VALID_SOURCES = ["指南", "文献", "临床试验", "专家共识", "数据库"]
-VALID_DOMAINS = ["流行病学", "诊断", "分期", "治疗", "预后", "生物标志物", "病理"]
+REQUIRED_FIELDS = ["head", "relation", "tail", "source", "evidence", "domain", "confidence", "pmid"]
+VALID_DOMAINS = ["epidemiology", "biomarkers", "csco_2024", "treatment"]
 
 
-def load_schema():
-    """加载Schema定义"""
-    with open(SCHEMA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+def test_json_files_exist():
+    """Test that all expected JSON files exist."""
+    print("\n[TEST] JSON files exist...")
+    expected_files = ["epidemiology.json", "csco_2024.json", "biomarkers.json", "treatment.json"]
+    for f in expected_files:
+        path = os.path.join(KG_DIR, f)
+        assert os.path.exists(path), f"Missing file: {path}"
+    print("  [PASS] All expected JSON files exist")
 
 
-def validate_triplet(triplet, file_name, index):
-    """验证单个三元组"""
-    errors = []
-
-    # 检查必需字段
-    for field in REQUIRED_FIELDS:
-        if field not in triplet:
-            errors.append(f"  [{file_name}:{index}] 缺少必需字段 '{field}'")
-        elif not triplet[field] or str(triplet[field]).strip() == "":
-            errors.append(f"  [{file_name}:{index}] 字段 '{field}' 为空")
-
-    # 检查confidence范围
-    if "confidence" in triplet:
-        conf = triplet["confidence"]
-        if not isinstance(conf, (int, float)):
-            errors.append(f"  [{file_name}:{index}] confidence应为数字")
-        elif conf < 0 or conf > 1:
-            errors.append(f"  [{file_name}:{index}] confidence超出0-1范围: {conf}")
-
-    # 检查source枚举
-    if "source" in triplet and triplet["source"] not in VALID_SOURCES:
-        errors.append(f"  [{file_name}:{index}] source值无效: {triplet['source']}")
-
-    # 检查domain枚举
-    if "domain" in triplet and triplet["domain"] not in VALID_DOMAINS:
-        errors.append(f"  [{file_name}:{index}] domain值无效: {triplet['domain']}")
-
-    return errors
-
-
-def validate_knowledge_file(file_path):
-    """验证单个知识文件"""
-    errors = []
-
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-    except json.JSONDecodeError as e:
-        return [f"[{file_path.name}] JSON格式错误: {e}"]
-
-    # 检查顶层结构
-    if "knowledge_triplets" not in data:
-        return [f"[{file_path.name}] 缺少 'knowledge_triplets' 字段"]
-
-    triplets = data["knowledge_triplets"]
-    if not isinstance(triplets, list):
-        return [f"[{file_path.name}] 'knowledge_triplets' 应为数组"]
-
-    if len(triplets) == 0:
-        return [f"[{file_path.name}] 'knowledge_triplets' 为空"]
-
-    # 验证每个三元组
-    for i, triplet in enumerate(triplets):
-        if not isinstance(triplet, dict):
-            errors.append(f"  [{file_path.name}:{i}] 三元组应为对象")
+def test_json_valid():
+    """Test that all JSON files are valid JSON."""
+    print("\n[TEST] JSON format validation...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
             continue
-        errors.extend(validate_triplet(triplet, file_path.name, i))
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        assert isinstance(data, list), f"{f}: root must be a JSON array"
+    print("  [PASS] All JSON files are valid")
 
-    return errors
+
+def test_triplet_fields():
+    """Test that all triplets have required fields."""
+    print("\n[TEST] Required triplet fields...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
+            continue
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        for i, t in enumerate(data):
+            for field in REQUIRED_FIELDS:
+                assert field in t, f"{f}[{i}]: missing field '{field}'"
+    print("  [PASS] All triplets have required fields")
 
 
-def run_tests():
-    """运行所有测试"""
+def test_domain_values():
+    """Test that domain values are valid."""
+    print("\n[TEST] Domain value validation...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
+            continue
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        for i, t in enumerate(data):
+            assert t["domain"] in VALID_DOMAINS, f"{f}[{i}]: invalid domain '{t['domain']}'"
+    print("  [PASS] All domain values are valid")
+
+
+def test_confidence_range():
+    """Test that confidence scores are in valid range."""
+    print("\n[TEST] Confidence score range...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
+            continue
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        for i, t in enumerate(data):
+            assert 0 <= t["confidence"] <= 1, f"{f}[{i}]: confidence {t['confidence']} out of range [0,1]"
+    print("  [PASS] All confidence scores are valid")
+
+
+def test_minimum_triplets():
+    """Test that each file has at least 10 triplets."""
+    print("\n[TEST] Minimum triplet count (>=10 per file)...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
+            continue
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        assert len(data) >= 10, f"{f}: has {len(data)} triplets, minimum is 10"
+        print(f"  {f}: {len(data)} triplets [OK]")
+    print("  [PASS] All files have >= 10 triplets")
+
+
+def test_no_duplicate_triplets():
+    """Test that there are no duplicate triplets within a file."""
+    print("\n[TEST] No duplicate triplets...")
+    for f in os.listdir(KG_DIR):
+        if not f.endswith(".json"):
+            continue
+        filepath = os.path.join(KG_DIR, f)
+        with open(filepath, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        seen = set()
+        for i, t in enumerate(data):
+            key = (t["head"], t["relation"], t["tail"])
+            assert key not in seen, f"{f}[{i}]: duplicate triplet ({t['head']}, {t['relation']}, {t['tail']})"
+            seen.add(key)
+    print("  [PASS] No duplicate triplets found")
+
+
+def test_kb_build_output():
+    """Test that build_kb.py produces valid output."""
+    print("\n[TEST] Build output validation...")
+    kb_path = os.path.join(DATA_DIR, "kb.json")
+    meta_path = os.path.join(DATA_DIR, "kb_meta.json")
+
+    if not os.path.exists(kb_path):
+        print("  [SKIP] kb.json not found (run build_kb.py first)")
+        return
+    if not os.path.exists(meta_path):
+        print("  [SKIP] kb_meta.json not found (run build_kb.py first)")
+        return
+
+    with open(kb_path, "r", encoding="utf-8") as f:
+        kb = json.load(f)
+    assert "meta" in kb, "kb.json missing 'meta' key"
+    assert "triplets" in kb, "kb.json missing 'triplets' key"
+    assert kb["meta"]["total_triplets"] == len(kb["triplets"]), "Triplet count mismatch"
+
+    with open(meta_path, "r", encoding="utf-8") as f:
+        meta = json.load(f)
+    assert "version" in meta, "kb_meta.json missing 'version' key"
+    assert "total_triplets" in meta, "kb_meta.json missing 'total_triplets' key"
+
+    print(f"  kb.json: {kb['meta']['total_triplets']} triplets [OK]")
+    print(f"  kb_meta.json: version {meta['version']} [OK]")
+    print("  [PASS] Build output is valid")
+
+
+def test_schema_exists():
+    """Test that the triplet schema file exists and is valid JSON."""
+    print("\n[TEST] Schema file validation...")
+    assert os.path.exists(SCHEMA_PATH), f"Schema file not found: {SCHEMA_PATH}"
+    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
+        schema = json.load(f)
+    assert "required" in schema, "Schema missing 'required' field"
+    assert "properties" in schema, "Schema missing 'properties' field"
+    print("  [PASS] Schema file is valid")
+
+
+def main():
+    """Run all tests."""
     print("=" * 60)
-    print("知识库格式验证测试")
+    print("Pancreatic Cancer KB - Format Validation Tests")
     print("=" * 60)
 
-    # 加载Schema
-    schema = load_schema()
-    print(f"\n加载Schema: {SCHEMA_FILE.name}")
+    tests = [
+        test_schema_exists,
+        test_json_files_exist,
+        test_json_valid,
+        test_triplet_fields,
+        test_domain_values,
+        test_confidence_range,
+        test_minimum_triplets,
+        test_no_duplicate_triplets,
+        test_kb_build_output,
+    ]
 
-    # 查找知识文件
-    kb_files = list(KB_DIR.glob("*.json"))
-    knowledge_files = [f for f in kb_files if f.name not in ["kb.json", "kb_meta.json"]]
+    failed = 0
+    for test in tests:
+        try:
+            test()
+        except AssertionError as e:
+            print(f"  [FAIL] {e}")
+            failed += 1
+        except Exception as e:
+            print(f"  [ERROR] {e}")
+            failed += 1
 
-    print(f"\n发现 {len(knowledge_files)} 个知识文件待验证")
-
-    all_errors = []
-    total_triplets = 0
-
-    for kb_file in knowledge_files:
-        print(f"\n验证: {kb_file.name}")
-        errors = validate_knowledge_file(kb_file)
-
-        # 统计三元组数量
-        with open(kb_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        count = len(data.get("knowledge_triplets", []))
-        total_triplets += count
-
-        if errors:
-            print(f"  ✗ 发现 {len(errors)} 个错误")
-            all_errors.extend(errors)
-        else:
-            print(f"  ✓ 通过 ({count} 条三元组)")
-
-    # 输出结果
     print("\n" + "=" * 60)
-    print("测试结果")
+    if failed == 0:
+        print(f"All {len(tests)} tests PASSED")
+    else:
+        print(f"{failed}/{len(tests)} tests FAILED")
     print("=" * 60)
 
-    if all_errors:
-        print(f"\n✗ 验证失败，发现 {len(all_errors)} 个错误:")
-        for error in all_errors[:50]:  # 最多显示50个错误
-            print(error)
-        if len(all_errors) > 50:
-            print(f"  ... 还有 {len(all_errors) - 50} 个错误")
-        return False
-    else:
-        print(f"\n✓ 所有验证通过!")
-        print(f"  - 知识文件数: {len(knowledge_files)}")
-        print(f"  - 总三元组数: {total_triplets}")
-        return True
+    sys.exit(1 if failed > 0 else 0)
 
 
 if __name__ == "__main__":
-    success = run_tests()
-    sys.exit(0 if success else 1)
+    main()

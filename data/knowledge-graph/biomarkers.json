@@ -1,140 +1,132 @@
-{
-  "knowledge_triplets": [
-    {
-      "head": "胰腺癌TNM分期",
-      "relation": "采用标准",
-      "tail": "AJCC第8版",
-      "source": "指南",
-      "evidence": "国际通用分期系统",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T1期",
-      "relation": "肿瘤大小",
-      "tail": "≤2cm",
-      "source": "指南",
-      "evidence": "局限于胰腺内",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T2期",
-      "relation": "肿瘤大小",
-      "tail": ">2cm但≤4cm",
-      "source": "指南",
-      "evidence": "局限于胰腺内",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T3期",
-      "relation": "肿瘤特征",
-      "tail": ">4cm或超出胰腺但未累及腹腔干/肠系膜上动脉",
-      "source": "指南",
-      "evidence": "局部进展",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "T4期",
-      "relation": "肿瘤特征",
-      "tail": "累及腹腔干或肠系膜上动脉",
-      "source": "指南",
-      "evidence": "不可切除",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "可切除胰腺癌",
-      "relation": "定义",
-      "tail": "无远处转移，肿瘤未累及腹腔干/肠系膜上动脉/肝动脉",
-      "source": "指南",
-      "evidence": "NCCN/CSCO定义",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "边界可切除胰腺癌",
-      "relation": "定义",
-      "tail": "肿瘤累及胰周血管但可重建",
-      "source": "指南",
-      "evidence": "需多学科评估",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "不可切除胰腺癌",
-      "relation": "定义",
-      "tail": "远处转移或肿瘤包绕主要血管无法切除",
-      "source": "指南",
-      "evidence": "包括局部晚期",
-      "domain": "分期",
-      "confidence": 0.98
-    },
-    {
-      "head": "CA19-9",
-      "relation": "是",
-      "tail": "胰腺癌最常用血清标志物",
-      "source": "指南",
-      "evidence": "辅助诊断和疗效监测",
-      "domain": "生物标志物",
-      "confidence": 0.95
-    },
-    {
-      "head": "CA19-9",
-      "relation": "局限性",
-      "tail": "胆道梗阻时升高，特异性受限",
-      "source": "文献",
-      "evidence": "需排除胆道梗阻因素",
-      "domain": "生物标志物",
-      "confidence": 0.90,
-      "pmid": "32530488"
-    },
-    {
-      "head": "CEA",
-      "relation": "是",
-      "tail": "胰腺癌辅助诊断标志物",
-      "source": "专家共识",
-      "evidence": "特异性不高，联合CA19-9使用",
-      "domain": "生物标志物",
-      "confidence": 0.80
-    },
-    {
-      "head": "CA125",
-      "relation": "是",
-      "tail": "胰腺癌肝转移/腹膜转移监测标志物",
-      "source": "文献",
-      "evidence": "联合CA19-9提高敏感性",
-      "domain": "生物标志物",
-      "confidence": 0.80
-    },
-    {
-      "head": "影像学评估首选",
-      "relation": "方法",
-      "tail": "增强CT（三期扫描）",
-      "source": "指南",
-      "evidence": "评估分期和可切除性",
-      "domain": "诊断",
-      "confidence": 0.98
-    },
-    {
-      "head": "EUS",
-      "relation": "用于",
-      "tail": "早期病变发现和细针穿刺活检",
-      "source": "指南",
-      "evidence": "敏感性高于CT",
-      "domain": "诊断",
-      "confidence": 0.95
-    },
-    {
-      "head": "MRI/MRCP",
-      "relation": "用于",
-      "tail": "胆道梗阻评估和囊性病变鉴别",
-      "source": "指南",
-      "evidence": "与CT互补",
-      "domain": "诊断",
-      "confidence": 0.90
-    }
-  ]
-}
+[
+  {
+    "head": "胰腺癌",
+    "relation": "分期系统",
+    "tail": "AJCC第8版TNM分期",
+    "source": "AJCC Cancer Staging Manual, 8th Edition (2017)",
+    "evidence": "胰腺癌采用AJCC第8版TNM分期系统，根据原发肿瘤范围（T）、区域淋巴结（N）、远处转移（M）进行分期，是指导治疗选择和预后判断的核心依据",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌T1期",
+    "relation": "定义",
+    "tail": "肿瘤最大径≤2cm，局限于胰腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T1期：肿瘤最大径≤2cm，局限于胰腺内；T1a≤0.5cm，T1b 0.5-1.0cm，T1c 1.0-2.0cm",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌T2期",
+    "relation": "定义",
+    "tail": "肿瘤最大径>2cm且≤4cm，局限于胰腺内",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T2期：肿瘤最大径>2cm且≤4cm，局限于胰腺内",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌T3期",
+    "relation": "定义",
+    "tail": "肿瘤最大径>4cm，和/或超出胰腺范围但未侵犯腹腔干或肠系膜上动脉",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T3期：肿瘤最大径>4cm，或肿瘤超出胰腺范围但无腹腔干或肠系膜上动脉（SMA）受累",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌T4期",
+    "relation": "定义",
+    "tail": "肿瘤侵犯腹腔干或肠系膜上动脉（不可切除）",
+    "source": "AJCC第8版TNM分期",
+    "evidence": "T4期：肿瘤直接侵犯腹腔干或肠系膜上动脉（SMA），属于生物学不可切除（需新辅助治疗后重新评估）",
+    "domain": "biomarkers",
+    "confidence": 0.99,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌手术切除性分类",
+    "relation": "分类标准",
+    "tail": "可切除、临界可切除（BRPC）、局部晚期不可切除、转移性",
+    "source": "NCCN胰腺癌指南及CSCO 2024胰腺癌诊疗指南",
+    "evidence": "基于CT/MRI影像学评估，将胰腺癌分为：可切除（R-PANC）、临界可切除（BRPC）、局部晚期不可切除（LA-PANC）、转移性（M1）四类，分别采用不同治疗策略",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "KRAS突变",
+    "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+    "tail": ">90%",
+    "source": "TCGA胰腺癌基因组学研究及NCCN指南",
+    "evidence": "KRAS突变是PDAC最早期的驱动事件，超过90%的PDAC存在KRAS激活突变（最常见为G12D、G12V、G12R），是PDAC发生发展的核心分子事件",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "25033468"
+  },
+  {
+    "head": "TP53突变",
+    "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+    "tail": "50-75%",
+    "source": "TCGA胰腺癌基因组学研究",
+    "evidence": "TP53突变是PDAC第二常见的分子改变，约50-75%的PDAC存在TP53失活突变，与不良预后相关",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "25033468"
+  },
+  {
+    "head": "SMAD4/DPC4失活",
+    "relation": "在胰腺导管腺癌（PDAC）中的检出率",
+    "tail": "约30-55%",
+    "source": "TCGA胰腺癌基因组学研究",
+    "evidence": "SMAD4（DPC4）是TGF-β信号通路的关键分子，约30-55%的PDAC存在SMAD4失活，与预后不良和对化疗耐药相关",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "25033468"
+  },
+  {
+    "head": "BRCA1/BRCA2胚系突变",
+    "relation": "在胰腺癌患者中的检出率",
+    "tail": "约4-7%（胚系），体细胞突变约2%",
+    "source": "NCCN胰腺癌基因检测共识",
+    "evidence": "约4-7%的胰腺癌患者存在BRCA1/2胚系突变，这类患者对铂类化疗和PARP抑制剂敏感，所有转移性胰腺癌患者应行胚系基因检测",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "31712542"
+  },
+  {
+    "head": "CA19-9",
+    "relation": "在胰腺癌中的临床应用",
+    "tail": "最常用的血清肿瘤标志物，用于诊断、疗效监测和预后评估",
+    "source": "CSCO 2024胰腺癌诊疗指南及NCCN指南",
+    "evidence": "CA19-9是胰腺癌最常用的血清标志物，敏感性和特异性约80%。局限性：约5-10%的人群为Lewis抗原阴性（不能合成CA19-9）；胆道梗阻和肝胆疾病也可导致CA19-9升高。术后CA19-9持续升高提示残留/复发",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  },
+  {
+    "head": "CEA",
+    "relation": "在胰腺癌中的临床意义",
+    "tail": "辅助CA19-9用于诊断和随访，特异性较高但敏感性较低",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "CEA可作为CA19-9的补充标志物，尤其在CA19-9不高或Lewis阴性患者中。CEA升高也可见于其他消化道肿瘤和吸烟者",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": null
+  },
+  {
+    "head": "胰腺癌基因检测",
+    "relation": "CSCO 2024推荐检测范围",
+    "tail": "胚系：BRCA1/2、PALB2、ATM、CDKN2A、MLH1、MSH2等；体细胞：KRAS、TP53、SMAD4、TMB、MSI、NTRK融合",
+    "source": "CSCO 2024胰腺癌诊疗指南",
+    "evidence": "CSCO 2024推荐所有转移性胰腺癌患者进行胚系和体细胞基因检测，以指导靶向治疗选择（如PARP抑制剂、免疫治疗等）",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": null
+  }
+]
